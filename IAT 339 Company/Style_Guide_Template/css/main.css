@@ -1,6 +1,7 @@
 body{
-	font-family: 'Montserrat Light', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	padding: 2rem;
+  font-weight: 400;
     
 }
 
@@ -77,6 +78,7 @@ img {
   font-size: 0.8em;
   text-decoration: none;
   font-weight: 700;
+  letter-spacing: 2px;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
@@ -98,6 +100,7 @@ img {
   text-decoration: none;
   font-size: 0.8em;
   font-weight: 700;
+  letter-spacing: 2px;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
@@ -111,6 +114,8 @@ img {
 
 /* Styling for the Submit/Reset button */
 .button-submit {
+  font-family: "Montserrat";
+
   display: inline-block;
   padding: 0.8em 2.8em;
   color: #fff;
@@ -118,6 +123,7 @@ img {
   text-decoration: none;
   font-size: 0.8em;
   font-weight: 700;
+  letter-spacing: 2px;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
@@ -132,7 +138,7 @@ h1{
     font-size: 40px;
     margin-top: 0px;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: 400;
     color: #181919;
     padding-left: 10px; 
 }
@@ -140,33 +146,33 @@ h1{
 h2{
     padding-top: 0.1em;
     padding-bottom: 0.1em;
-    font-weight: 600;
+    font-weight: 400;
     color: #4a4949;
 }
 
 h3{
     padding-top: 0.1em;
     padding-bottom: 0.1em;
-    font-weight: 500;
+    font-weight: 400;
     color: #bbbbbb;
 }
 
 h4{
     padding-top: 0.1em;
     padding-bottom: 0.1em;
-    font-weight: 500;
+    font-weight: 400;
     color: #bbbbbb;
 }
 
 h5{
     padding-top: 0.1em;
     padding-bottom: 0.1em;
-    font-weight: 500;
+    font-weight: 400;
     color: #bbbbbb;
 }
 
 .in_text_link {
-    font-weight: 800;
+    font-weight: 400;
     text-decoration: none;
     color: #bda67c;
 }
@@ -200,6 +206,7 @@ a.vertical_nav :active {
     border: 1px solid #bea67c;  
 }
 
+/* Styling for paragraph */
 p {
   letter-spacing: 1.3px;
   line-height: 150%;
