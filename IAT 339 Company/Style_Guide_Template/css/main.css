@@ -1,5 +1,5 @@
 body{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Montserrat Light', sans-serif;
 	padding: 2rem;
     
 }
@@ -198,6 +198,11 @@ a.vertical_nav :active {
     height: 350px;
     margin: 5px;
     border: 1px solid #bea67c;  
+}
+
+p {
+  letter-spacing: 1.3px;
+  line-height: 150%;
 }
 
 
