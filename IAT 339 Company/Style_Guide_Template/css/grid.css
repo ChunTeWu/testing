@@ -1,0 +1,15 @@
+.vertical_nav{
+    display: block;
+    width: 23%;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    /*float: left;*/
+   
+}
+
+
+.vertical_body{
+    margin-left:25%;
+    /*float:right;*/
+}

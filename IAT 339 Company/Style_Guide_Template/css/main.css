@@ -10,17 +10,7 @@ section{
     border-bottom: 0.15em solid #333;
 }
 
-.vertical_nav{
-    display: block;
-    width: 23%;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
-    /*float: left;*/
 
-
-    
-}
 
 /*.vertical_nav :link{
 	text-decoration: none;
@@ -56,12 +46,6 @@ section{
 }
 
 
-
-
-.vertical_body{
-    margin-left:25%;
-    /*float:right;*/
-}
 
 img {
     max-width: 100%;
@@ -114,8 +98,6 @@ img {
 
 /* Styling for the Submit/Reset button */
 .button-submit {
-  font-family: "Montserrat";
-
   display: inline-block;
   padding: 0.8em 2.8em;
   color: #fff;
