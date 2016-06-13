@@ -1,0 +1,64 @@
+.vertical_nav ul{
+    display: block;
+    width: 20%;
+    height: 100%; /* Full height */
+    padding: 1em;
+    /*padding-bottom: 2.5em;*/
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    /*float: left;*/
+   
+}
+
+
+.vertical_body{
+    margin-left:25%;
+    /*float:right;*/
+}
+
+
+
+
+
+
+/*div.vertical_nav {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}*/
+
+@media screen and (max-width: 900px){
+    .vertical_nav ul{
+        width:100%;
+        height:auto;
+        position:relative;
+    }
+    .vertical_nav li a {
+    	/*display: block;*/
+        float: left;
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    .vertical_nav li{
+    float: left;
+    padding-top: 0em;
+    padding-top: 0em;
+
+    }
+    .vertical_body{
+    margin-left:0%;
+ 
+	}
+}
+
+@media screen and (max-width: 600px){
+    .vertical_nav li {
+        /*text-align: center;*/
+        float: none;
+    }
+
+    .vertical_nav li a{
+    text-align: center;
+    /*float: none;*/
+    }
+}
