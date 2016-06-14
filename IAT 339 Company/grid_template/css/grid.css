@@ -13,6 +13,11 @@
    
 }
 
+.active{
+	display: none;
+    
+}
+
 @media screen and (max-width: 900px){
     .vertical_nav{
     	display: none;
@@ -21,5 +26,10 @@
     .vertical_body{
     	margin-left:0%;
     	/*float:right;*/
-}
+	}
+
+	.active{
+	display: block;
+    
+	}
 }
