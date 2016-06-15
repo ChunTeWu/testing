@@ -12,6 +12,7 @@
 
 
 .vertical_body{
+    padding: 1em;
     margin-left:25%;
     /*float:right;*/
 }
@@ -52,10 +53,7 @@
     margin-left:0%;
  
 	}
-    .active{
-        display: block;
-    }
-}
+
 
 @media screen and (max-width: 600px){
     .vertical_nav li {
