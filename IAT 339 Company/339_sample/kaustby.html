@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Juu Furniture</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/products-itempage.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400%7cTitillium+Web:400,200,700' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+  <header>
+    <div class="nav-bar">
+      <div id="logo">
+        <a href="index.html"><img src="img/logo-blue.png" alt="logo"></a>
+      </div>
+
+      <div class="menu menu-icon">
+        <ul class="menu-nav">
+          <li class="icon account" id="account"><img src='img/account-gray.png' alt="account"></li>
+          <li class="icon car" id="car"><img src='img/cart-gray.png' alt="cart"></li>
+          <li class="circle-li">
+            <div class="circle">2</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu menu-firstrow">
+        <ul class="menu-nav">
+          <li class="activated"><a href="products.html">Products</a></li>
+          <li><a href="stores.html">Stores</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <!-- end of first nav bar -->
+
+
+  <div class="login">
+        <div id="signin-dropdown">
+        <!-- <img class="close" src="img/close.png" alt="close" height="15" width="15"> -->
+        <img class="close" src="img/close.png" alt="close" height="15" width="15">
+        <form method="post" class="signin" action="#">
+        <div class="textbox">
+        <div class="username">
+        <label>Username</label>
+
+        <input id="username" name="username" value="" type="text" autocomplete="on">
+        </div>
+        
+        <div class="password">
+        <label>Password</label>
+        <input id="password" name="password" value="" type="password">
+        </div>
+        </div>
+        
+        <div class="login_register">
+        <button class="blue-button login-button" type="button">log in</button>
+        <a class="register" href="#">register</a>
+        </div>
+
+        </form>
+    </div>
+  </div>
+
+  <div class="cart">
+    <div id="cart-dropdown">
+      <img class="close" src="img/close.png" alt="close" height="15" width="15">
+      <div class="cart-item first">
+        <img class="cart-img" src="img/buy1.jpg" alt="list1">
+        <div class="cart-description">
+        <p class="list-title">Copenhague Chair</p>
+        <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <img class="cart-img" src="img/buy2.jpg" alt="list2">
+        <div class="cart-description">
+        <p class="list-title">Tray Table</p>
+        <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
+        </div>
+      </div>
+      <div class="order">
+        <div class="grid">
+          <div class="col-6">
+            <h3>Total: $348</h3>
+          </div>
+          <div class="col-12">
+            <a class="blue-button" href="checkout.html">Order</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="second-nav">
+      <ul class="menu-nav">
+        <li class="activated"><a href="products.html">Products</a></li>
+        <li><a href="stores.html">Stores</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <!-- end of second nav bar -->
+  </header>
+
+
+
+
+  <div class="section product-banner">
+    <div class="textcontainer">
+      <h2>Kaustby</h2>
+      <h2 class="light-font"> $198</h2>
+      <p>stackability, durability and ease of cleaning</p>
+      <button class="blue-button add-to-car">add to cart</button>
+    </div>
+  </div>
+
+  <div class="section product-details">
+    <div class="textcontainer">
+      <h3>Overview</h3>
+      <p>Kaustby is a furniture series designed by JUU especially for the new buildings at universities. In addition to a homely and welcoming expression, functional furniture qualities such as stackability, durability and ease of cleaning were important design requirements for universities. The Bouroullec brothers approach the task by merging design history with modern technology in an idiom with a strong and independent appearance in a broad and versatile series that embraces both public and private environments.</p>
+
+      <h3>Dimensions</h3>
+      <p>W 49 x D 50 x H 46/80 cm</p>
+    </div>
+  </div>
+
+
+
+  <div class="section review">
+
+    <div class="container">
+      <button class="blue-button" id="reviewbutton" type="button">Write a Review</button>
+
+      <h4>Reviews (11)</h4>
+      <div class="grid" id="reviewbox">
+        <div class="col-12">
+          <img class="star" src='img/star-outline.png' alt="star">
+          <img class="star" src='img/star-outline.png' alt="star">
+          <img class="star" src='img/star-outline.png' alt="star">
+          <img class="star" src='img/star-outline.png' alt="star">
+          <img class="star" src='img/star-outline.png' alt="star">
+      
+          <input type="text" id="review-name" name="name" placeholder="Your Name">
+          <textarea id="review-area" placeholder="Write your review here" name="reivewbox"></textarea>
+          <div class="button-container">
+            <button class="white-button" id="cancel-button" type="button">Cancel</button>
+            <button class="blue-button" id="post-button" type="button">Post</button>
+            
+          </div>
+        </div>
+      </div> <!-- end of grid -->
+      
+      <div class="grid">
+       <!--  <p id="test">Test Paragraph.</p> -->
+          <div class="col-12 first-review">
+            <p class="name">Sofia T.</p>
+              <p class="time">03/11/15</p>
+              <div class="review-container">
+                <div class="star-container">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                </div>
+                <p class="review-content">Caerphilly ricotta hard cheese. Halloumi babybel who moved my agur cheese port-salut cottage cheese babybel say cheese caerphilly. Cheese triangles st. agur blue cheese cream cheese feta chalk and cheese danish fontina pecorino caerphilly.</p>
+              </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="col-12">
+            <p class="name">Marcus S.</p>
+              <p class="time">10/10/15</p>
+              <div class="review-container">
+                <div class="star-container">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                </div>
+                <p class="review-content">Caerphilly ricotta hard cheese. Halloumi babybel who moved my agur cheese port-salut cottage cheese babybel say cheese caerphilly. Cheese triangles st. agur blue cheese cream cheese feta chalk and cheese danish fontina pecorino caerphilly.</p>
+              </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="col-12">
+            <p class="name">Andrew H.</p>
+              <p class="time">01/06/14</p>
+              <div class="review-container">
+                <div class="star-container">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                </div>
+                <p class="review-content">Chalk and cheese cream cheese emmental. Cheddar boursin blue castello bocconcini bavarian bergkase cottage cheese stinking bishop when the cheese comes out everybody's happy. Roquefort manchego goat.</p>
+              </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="col-12">
+            <p class="name">Paul B.</p>
+              <p class="time">05/06/14</p>
+              <div class="review-container">
+                <div class="star-container">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                </div>
+                <p class="review-content">Bavarian bergkase smelly cheese cream cheese. Hard cheese port-salut cheese triangles airedale ricotta say cheese croque monsieur port-salut. Lancashire cut the cheese bocconcini fromage cow cow cut the cheese halloumi.</p>
+              </div>
+          </div>
+        </div>
+        <div class="marker"></div>
+      <p class="loading">Load More</p>
+      <!-- <p class="review-pages">1 <a href="#"> 2 </a><a href="#"> 3 </a><a href="#"> &gt;</a></p> -->
+    </div>
+  </div>
+
+  <div class="clone">
+        <div class="grid">
+          <div class="col-12">
+            <p class="name">Sherry L.</p>
+              <p class="time">03/08/15</p>
+              <div class="review-container">
+                <div class="star-container">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/star-outline.png' alt="star">
+                </div>
+                <p class="review-content">Caerphilly ricotta hard cheese. Halloumi babybel who moved my agur cheese port-salut cottage cheese babybel say cheese caerphilly. Cheese triangles st. agur blue cheese cream cheese feta chalk and cheese danish fontina pecorino caerphilly.</p>
+              </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="col-12">
+            <p class="name">Mandy S.</p>
+              <p class="time">03/11/15</p>
+              <div class="review-container">
+                <div class="star-container">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/star-outline.png' alt="star">
+                </div>
+                <p class="review-content">Caerphilly ricotta hard cheese. Halloumi babybel who moved my agur cheese port-salut cottage cheese babybel say cheese caerphilly. Cheese triangles st. agur blue cheese cream cheese feta chalk and cheese danish fontina pecorino caerphilly.</p>
+              </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="col-12">
+            <p class="name">Roger K.</p>
+              <p class="time">01/06/14</p>
+              <div class="review-container">
+                <div class="star-container">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/star-outline.png' alt="star">
+                </div>
+                <p class="review-content">Chalk and cheese cream cheese emmental. Cheddar boursin blue castello bocconcini bavarian bergkase cottage cheese stinking bishop when the cheese comes out everybody's happy. Roquefort manchego goat.</p>
+          </div>
+        </div>
+      </div>
+        <div class="grid">
+          <div class="col-12">
+            <p class="name">Allen M.</p>
+              <p class="time">01/06/14</p>
+              <div class="review-container">
+                <div class="star-container">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                  <img class="star" src='img/blue-star.png' alt="star">
+                </div>
+                <p class="review-content">Bavarian bergkase smelly cheese cream cheese. Hard cheese port-salut cheese triangles airedale ricotta say cheese croque monsieur port-salut. Lancashire cut the cheese bocconcini fromage cow cow cut the cheese halloumi.</p>
+              </div>
+          </div>
+        </div>
+      </div> 
+    <!-- </div>end of clone -->
+
+<footer class="footer">
+
+      
+
+
+        <p class="footer-links">
+          <a href="index.html">Home</a>
+          ·
+          <a href="products.html">Products</a>
+          ·
+          <a href="stores.html">Stores</a>
+          ·
+          <a href="about.html">About</a>
+          ·
+          <a href="references.html">References</a>
+          ·
+          <a href="styleguide.html">Style Guide</a>
+          ·
+          <a href="https://github.com/0107sofia/juu.git">GitHub Repository</a>
+        </p>
+<!-- 
+        <p>&copy; JUU 2015</p> -->
+        <p class="footer-name">Sofia Tang + Marcus Su&nbsp; | &nbsp;IAT 339 &nbsp;| &nbsp;Summer 2015</p>
+
+    </footer>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/loadreviews.js"></script>
+</body>
+
+</html>
