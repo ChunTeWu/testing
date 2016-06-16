@@ -224,3 +224,47 @@ h1{
 #show_border{
   border: 0.2em solid #bea67c; 
 }
+
+
+.button-CS {
+  display: inline-block;
+  padding: 0.8em 2.8em; /*Clears an area around the content.*/
+  margin: 2em 1em 0em 0em; /*Clears an area outside the border.*/
+  color: #bea67c;
+  border: 2px solid #bea67c;
+  border-radius: 0em;
+  font-size: 0.8em;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: .2em;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.button-CS:hover, .button-CS:focus {
+  color: #0b0b0d;
+  background-color: #bea67c;
+  border: 2px solid #bea67c;
+}
+
+/* Styling for the Checkout button */
+.button-checkout {
+  display: inline-block;
+  padding: 0.8em 2.8em;
+  color: #000;
+  background-color: #bea67c;
+  border: 2px solid #bea67c;
+  border-radius: 0em;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: .2em;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.button-checkout:hover, .button-checkout:focus {
+  color: white;
+  color: #bea67c;
+  border: 2px solid #bea67c;
+}
