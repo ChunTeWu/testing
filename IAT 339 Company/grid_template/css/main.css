@@ -220,3 +220,7 @@ h1{
     margin: 1em;
     border: 0.2em solid #bea67c;  
 }
+
+#show_border{
+  border: 0.2em solid #bea67c; 
+}

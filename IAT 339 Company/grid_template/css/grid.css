@@ -1,7 +1,8 @@
 .vertical_body{
     /*position: absolute;*/
     margin-left: 5%;
-    float:right;
+    /*height: 100%;*/
+    /*float:right;*/
 }
 
 .vertical_nav{
@@ -20,7 +21,7 @@
     
 }
 
-@media screen and (max-width: 900px){
+@media (max-width: 900px){
     .vertical_nav{
     	display: none;
     }
@@ -36,4 +37,20 @@
     position: fixed;
     
 	}
+}
+
+.grid-6of10{
+    width: 55%;
+    height: 100%;
+    display: inline-block;
+    /*height: 10em;*/
+    /*float: right;*/
+}
+
+.grid-4of10{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+    /*height: 10em;*/
+    /*float: right;*/
 }
