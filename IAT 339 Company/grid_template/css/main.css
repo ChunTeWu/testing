@@ -110,11 +110,14 @@ body{
   text-decoration: none;
   margin: 0;
   padding-left: 30%;
+  padding-right: 44%;
+  position: fixed;
   /*padding-right: 0;*/
 
 }
 
 .active ul {
+  /*position: fixed;*/
     list-style-type: none;
 /*    margin: 0;
     padding: 0;*/

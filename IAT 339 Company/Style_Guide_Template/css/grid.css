@@ -15,3 +15,7 @@
     /*float:right;*/
 }
 
+.active{
+	position: fixed;
+}
+
