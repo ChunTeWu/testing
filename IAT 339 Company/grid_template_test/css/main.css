@@ -11,48 +11,48 @@ section{
 }
 
 
-
-/*.vertical_nav :link{
-	text-decoration: none;
-    color: #bda67c;
-    
-    
-}*/
-.vertical_nav ul{
-	-webkit-padding-start: 0px;
+/* styling vertical navigation bar */
+nav.vertical {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  overflow: hidden;
+  text-align: center;
+}
+nav.vertical > ul {
     list-style-type: none;
-    color: #fff;
-    /*overflow: hidden;*/
-    
 }
-
-
-
-
-
-.vertical_nav li{
-    /*padding-top: 2.5em;*/
-
-    padding-bottom: 2.5em;
-    /*padding: 0.3em;*/
-    font-size: 20px;  
+nav.vertical > ul > li {
+      display: block;
 }
-
-.vertical_nav li a{
-    /*padding-top: 1.25em;*/
+nav.vertical > ul > li > a {
+  background-color: rgb(157, 34, 60);
+  background-image: -webkit-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+  background-image: -moz-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+  background-image: -o-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+  background-image: linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);
+  color: rgb(255,255,255);
+  display: block;
+  font-size: .85rem;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: .5rem;
+  line-height: 50px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.1);
+  text-transform: uppercase;
+  transition: all .1s ease;
+  text-decoration: none;
 }
-
-
-.vertical_nav ul :hover {
-    background-color: #4a4949;
-    color: white;
+nav.vertical > ul > li > a:hover {
+    background-color: rgb(114, 51, 98);
+    background-image: -webkit-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
+    background-image: -moz-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
+    background-image: -o-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
+    background-image: linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98)); 
+    cursor: pointer;
 }
-
-.vertical_nav li :hover {
-    background-color: #4a4949;
-    color: white;
-}
-
+/* end of styling vertical navigation var */
 
 
 img {
@@ -168,7 +168,7 @@ h5{
 }
 
 
-
+/*
 a.vertical_nav :active {
     text-decoration: none;
 }
@@ -187,6 +187,7 @@ a.main_nav :hover {
 a.vertical_nav :active {
     text-decoration: none;
 }
+*/
 
 .floating-box {
     display: inline-block;
