@@ -2,7 +2,8 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	padding: 2rem;
   font-weight: 400;
-  background-color: #bda67c;  
+  background-color: #0b0b0d; 
+  margin: 0; 
 }
 
 section{
@@ -18,6 +19,12 @@ nav.vertical {
 }
 nav.vertical > ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%
+    position:fixed;
+    overflow: auto;
 }
 nav.vertical > ul > li {
       display: block;
@@ -52,7 +59,7 @@ nav.vertical > ul > li > label + input:checked + div {
     max-height: 500px;
 }
 nav.vertical > ul > li > div {
-  background-color: #bda67c;
+  background-color: #0b0b0d;
   max-height: 0;/*setting the max-height to 0 will automatically close all the divs when the page loads
 Setting the div to overflow hidden will hide the content held inside the containing div*/
   overflow: hidden;
@@ -63,7 +70,7 @@ nav.vertical > ul > li > div > ul {
   list-style-type: none;
 }
 nav.vertical > ul > li > div > ul > li > a {
-   background-color: rgba(0,0,0,0.8);
+   background-color: rgba(0,0,0,0.5);
    color: rgba(255,255,255,0.5);
    display: block;
    font-size: .85em;
@@ -90,21 +97,21 @@ img {
 
 .button-add {
   display: inline-block;
-  padding: 0.8em 2.8em;
+  padding: 0.8em 2.8em; /*Clears an area around the content.*/
+  margin: 2em 1em 0em 0em; /*Clears an area outside the border.*/
   color: #bea67c;
-  background-color: #fff;
   border: 2px solid #bea67c;
   border-radius: 0em;
   font-size: 0.8em;
   text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 2px;
+  font-weight: 400;
+  letter-spacing: .2em;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
 
 .button-add:hover, .button-add:focus {
-  color: white;
+  color: #0b0b0d;
   background-color: #bea67c;
   border: 2px solid #bea67c;
 }
@@ -153,33 +160,38 @@ img {
 
 
 h1{
-    font-size: 40px;
-    margin-top: 0px;
+    font-size: 2.2em;
+    /*margin-top: 0px;
     margin-bottom: 20px;
+    padding-left: 10px; */
     font-weight: 400;
-    color: #181919;
-    padding-left: 10px; 
+    text-transform: uppercase;
+    color: #fff;
 }
 
 h2{
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
+    font-size: 2em;
+    /*padding-top: 0.1em;
+    padding-bottom: 0.1em;*/
     font-weight: 400;
-    color: #4a4949;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 h3{
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
+    /*padding-top: 0.1em;
+    padding-bottom: 0.1em;*/
     font-weight: 400;
-    color: #bbbbbb;
+    text-transform: uppercase;
+    color:rgba(255,255,255,0.5);
 }
 
 h4{
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
+    /*padding-top: 0.1em;
+    padding-bottom: 0.1em;*/
     font-weight: 400;
-    color: #bbbbbb;
+    text-transform: uppercase;
+    color:rgba(255,255,255,0.5);
 }
 
 h5{
@@ -187,6 +199,16 @@ h5{
     padding-bottom: 0.1em;
     font-weight: 400;
     color: #bbbbbb;
+}
+
+/* Styling for paragraph */
+p.productDetail {
+  padding: 4em 0em 4em 0em;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 200%;
 }
 
 .in_text_link {
@@ -222,18 +244,8 @@ a.vertical_nav :active {
     width: 300px;
     height: 350px;
     margin: 5px;
-    border: 1px solid #bea67c;  
+    border: 1px solid #fff;  
 }
-
-/* Styling for paragraph */
-p {
-  letter-spacing: 1.3px;
-  line-height: 150%;
-}
-
-
-
-
 
 #wrap {
   width: 150px; 
