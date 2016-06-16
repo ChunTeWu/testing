@@ -2,7 +2,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	padding: 2rem;
   font-weight: 400;
-    
+  background-color: #bda67c;  
 }
 
 section{
@@ -21,7 +21,7 @@ section{
 .vertical_nav ul{
 	-webkit-padding-start: 0px;
     list-style-type: none;
-    color: #bda67c;
+    color: #fff;
     /*overflow: hidden;*/
     
 }
