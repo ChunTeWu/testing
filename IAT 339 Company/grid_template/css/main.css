@@ -330,7 +330,7 @@ h1{
    left: 0.3em; 
    width: 19.35em; 
    height: 1.1em;
-   background-color: blue;
+   background-color: #4a4949;
    opacity: 0.8;
    /*display: none;*/
    visibility: hidden;
@@ -351,7 +351,7 @@ h1{
    left: 0.3em; 
    width: 8.25em; 
    height: 1.1em;
-   background-color: blue;
+   background-color: #4a4949;
    opacity: 0.8;
    visibility: hidden;
    /*display: none;*/
