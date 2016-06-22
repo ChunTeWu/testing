@@ -246,6 +246,18 @@ h1{
   padding-top: 1em;
 }
 
+
+.metro_text_box{
+    background-color: lightgrey;
+    width: 15.3em;
+    height: 15.3em;
+    padding: 0.5em;
+    padding-top: 1em;
+    /*padding: 25px;*/
+    /*border: 25px solid navy;*/
+    /*margin: 25px;*/
+}
+
 .metro_box1{
 
   width: 15.3em;
