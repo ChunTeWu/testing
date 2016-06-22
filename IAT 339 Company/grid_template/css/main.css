@@ -423,3 +423,25 @@ h1{
   color: #bea67c;
   border: 2px solid #bea67c;
 }
+
+.icon_head{
+  width: 3em;
+  padding: 0.8em;
+}
+
+.icon_vertical{
+  width: 2em;
+  padding-left: 0.8em;
+  padding-top: 0.4em;
+}
+
+.icon_head_horizontal{
+  width: 3em;
+  padding: 0.8em;
+}
+
+.icon_horizontal{
+  width: 2em;
+  padding-left: 0.8em;
+  padding-top: 0.4em;
+}
