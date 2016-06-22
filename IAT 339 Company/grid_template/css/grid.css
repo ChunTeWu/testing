@@ -8,6 +8,7 @@
 
 .vertical_nav{
     display: block;
+    z-index: 1000;
     /*width: 100em;*/
     height: 100%; /* Full height */
     position: fixed;  /*Make it stick, even on scroll */
