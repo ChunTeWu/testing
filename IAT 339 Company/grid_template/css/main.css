@@ -35,7 +35,7 @@ body{
   /*background-color: blue;*/
   color: #000000;
   text-align: left;
-  opacity: 0.9;
+  opacity: 0.98;
 /*  border-top: 0.1em solid #bda67c;
   border-right: 0.1em solid #bda67c;*/
 
@@ -68,7 +68,7 @@ body{
 
 .vertical_nav ul ul{
   
-  opacity: 0;
+  /*opacity: 1;*/
   visibility: hidden;
   position: absolute;
   left: 100%;
@@ -79,7 +79,7 @@ body{
 
 
 .vertical_nav ul li:hover > ul{
-  opacity: 1;
+  /*opacity: 1;*/
   visibility: visible;
   /*transition: all 0.3s;*/
   /*z-index: 1000;*/
@@ -241,6 +241,10 @@ h1{
     margin-left: 0;
 }
 
+.floating-box img{
+    /*opacity: 0.9;*/
+}
+
 .metro_box{
   padding: 0.5em;
   padding-top: 1em;
@@ -264,15 +268,31 @@ h1{
   height: 15.3em;
   padding: 0.5em;
   padding-top: 1em;
+  /*opacity: 0.9;*/
 
 }
 
-.metro_box2{
+.metro_box1 img{
+  opacity: 0.9;
 
+}
+
+.metro_box1:hover, .metro_box2:hover{
+  box-shadow: 0 0 1em #ccc;
+  opacity: 1;
+}
+
+.metro_box2{
+  
   width: 32em;
   height: 15.3em;
   padding: 0.5em;
   padding-top: 1em;
+
+}
+
+.metro_box2 img{
+  opacity: 0.9;
 
 }
 
