@@ -166,6 +166,10 @@ body{
   background-color: white;
 }
 
+#hover_nothing:hover {
+  background-color: #000000;
+}
+
 .dropbtn:hover{
   background-color: white;
 
@@ -442,6 +446,6 @@ h1{
 
 .icon_horizontal{
   width: 2em;
-  padding-left: 0.8em;
+  padding-right: 0.1em;
   padding-top: 0.4em;
 }
