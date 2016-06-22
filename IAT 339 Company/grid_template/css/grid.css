@@ -1,6 +1,7 @@
 .vertical_body{
     /*position: absolute;*/
     margin-left: 5%;
+    vertical-align: baseline;
     /*height: 100%;*/
     /*float:right;*/
 }
@@ -54,3 +55,30 @@
     /*height: 10em;*/
     /*float: right;*/
 }
+
+/*.item {
+  width: 290px;
+  margin: 10px;
+  float: left;
+}
+.item img { width: 290px; }*/
+
+/*----------------------------------------------------------
+Media Queries
+----------------------------------------------------------*/
+
+/* @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container{ width: 768px; }
+ }
+ @media only screen and (max-width: 767px) {
+    .container { width: 300px; }
+    .item { width:120px; }
+    .item img { width: 120px; }
+    #social-icons li {margin:0px 5px 5px 0px;}
+    #social{height:75px;}
+    #social aside {float: left; font-size: 12px;}
+ }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container { width: 420px; }
+ }
+*/

@@ -23,6 +23,7 @@ body{
   padding-top: 10em; /*the padding of the icons*/
   list-style: none;
   /*text-align: center;*/
+
 }
 
 
@@ -34,6 +35,7 @@ body{
   /*background-color: blue;*/
   color: #000000;
   text-align: left;
+  opacity: 0.9;
 /*  border-top: 0.1em solid #bda67c;
   border-right: 0.1em solid #bda67c;*/
 
@@ -73,6 +75,8 @@ body{
   top: -30em;
  
  }
+
+
 
 .vertical_nav ul li:hover > ul{
   opacity: 1;
@@ -128,6 +132,7 @@ body{
     color: white;
     text-decoration: none;
     /*padding-left: 10em;*/
+
 
 
 }
@@ -205,6 +210,19 @@ body{
   padding: 4em;
   background-color: #000000;
   color: #B29C75; 
+  
+}
+
+
+.vertical_body ul{
+  list-style: none;
+}
+
+#product_list{
+  width: 20em;
+  border: 2px solid #bea67c;
+  /*border-left: 2px solid #bea67c;*/
+
 }
 
 
@@ -215,11 +233,37 @@ h1{
 
 .floating-box {
     display: inline-block;
-    width: 15em;
-    height: 20em;
+    width: 33em;
+    height: 100%;
     margin: 1em;
-    border: 0.2em solid #bea67c;  
+    /*border: 0.2em solid #bea67c;  */
+    margin-right: 0;
+    margin-left: 0;
 }
+
+.metro_box{
+  padding: 0.5em;
+  padding-top: 1em;
+}
+
+.metro_box1{
+
+  width: 15.3em;
+  height: 15.3em;
+  padding: 0.5em;
+  padding-top: 1em;
+
+}
+
+.metro_box2{
+
+  width: 32em;
+  height: 15.3em;
+  padding: 0.5em;
+  padding-top: 1em;
+
+}
+
 
 #show_border{
   border: 0.2em solid #bea67c; 
