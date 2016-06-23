@@ -1,0 +1,518 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background-color: #000000;
+}
+
+
+
+
+
+/*Vertical Navigation Bar setting*/
+/* Root = Vertical, Secondary = Vertical */
+ul#navmenu,
+ul#navmenu li,
+ul#navmenu ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 160px; /*For KHTML*/
+  list-style: none;
+  }
+
+ul#navmenu:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+  }
+
+ul#navmenu li {
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important; /*For GOOD browsers*/
+  display: inline; /*For IE*/
+  position: relative;
+  }
+
+/* Root Menu */
+ul#navmenu a {
+  border: 1px solid #FFF;
+  border-right-color: #CCC;
+  border-bottom-color: #CCC;
+  padding: 0 6px;
+  display: block;
+  background: #EEE;
+  color: #666;
+  font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+  }
+
+/* Root Menu Hover Persistence */
+ul#navmenu a:hover,
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+  background: #CCC;
+  color: #FFF;
+  }
+
+/* 2nd Menu */
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+  background: #EEE;
+  color: #666;
+  }
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+  }
+
+/* 3rd Menu */
+ul#navmenu li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+  }
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu li:hover li:hover li a:hover,
+ul#navmenu li:hover li:hover li:hover a,
+ul#navmenu li.iehover li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+  }
+
+/* 4th Menu */
+ul#navmenu li:hover li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+  }
+
+/* 4th Menu Hover */
+ul#navmenu li:hover li:hover li:hover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+  }
+
+ul#navmenu ul,
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+  }
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul {
+  display: none;
+  }
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul {
+  display: block;
+  }
+
+
+
+
+
+.vertical_nav{
+  /*width: 25%;*/
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+/*  top: 0em;
+  right: 0em;
+  left: 0em;
+  bottom: 0em;*/
+}
+
+.vertical_nav div{
+  width: 5em;
+  /*height: 100em;*/
+  background-color: #000000;
+  position: fixed;
+}
+
+.vertical_nav ul{
+  overflow: hidden;
+  background-color: #000000;
+  width: 5em; /*width of the Nav*/
+  margin: 0;
+  padding: 0;
+  /*padding-left: 0;
+  padding-top: 10em; /*the padding of the icons*/
+  list-style: none;
+  position: fixed;
+  height: 100%;
+  /*text-align: center;*/
+
+}
+
+
+.vertical_nav ul li{
+  /*width: 20em;*/
+  height: 3em; /*height of the navigation list*/
+  padding: 0.5em;
+  position: relative;
+  /*background-color: blue;*/
+  color: #000000;
+  text-align: left;
+  opacity: 0.98;
+  top: 10%;
+}
+
+.vertical_nav ul li ul li{ /*the padding of the text in the pop out vertical nav*/
+  padding-left: 2.5em; 
+  padding-top: 1em;
+  top: 0%;
+}
+
+.vertical_nav ul li:hover {
+    background-color: #0D0D0D;
+    transform: scale(1.05);
+    /*color: white;*/
+}
+
+.vertical_nav ul li ul{
+  width: 20em; /* width of the pop out list*/
+  height: 100em;
+  padding: 0em;
+  background-color: #0D0D0D;
+  left: 4.9em;
+}
+
+
+.vertical_nav ul li a{
+  color: #a5a5a5;
+  text-decoration: none;
+  letter-spacing: .1em;
+}
+
+.vertical_nav ul ul{
+  /*opacity: 1;*/
+  visibility: hidden;
+  position: absolute;
+  left: 100%;
+  top: -30em;
+ }
+
+
+.vertical_nav ul li:hover > ul{
+  /*opacity: 1;*/
+  visibility: visible;
+  /*transition: all 0.3s;*/
+  /*z-index: 1000;*/
+  
+}
+
+#vertical_icon_list{
+  padding-top: 10em;
+}
+
+#vertical_nav_padding_top1{  /*space for the top of the pop out list*/
+  padding-top: 23em;
+}
+
+#vertical_nav_padding_top2{  /*space for the top of the pop out list*/
+  padding-top: 19em;
+}
+
+#vertical_nav_padding_top3{  /*space for the top of the pop out list*/
+  padding-top: 15em;
+  width: 35em;
+}
+
+#vertical_nav_padding_top4{  /*space for the top of the pop out list*/
+  padding-top: 11em;
+}
+
+
+/*Horizontal Navigation Bar setting*/
+.active{
+  padding: 1em;
+  background-color: #000000;
+  text-decoration: none;
+  margin: 0;
+/*  padding-left: 30%;
+  padding-right: 44%;*/
+  position: fixed;
+  /*padding-right: 0;*/
+
+}
+
+.active ul {
+  /*position: fixed;*/
+    list-style-type: none;
+/*    margin: 0;
+    padding: 0;*/
+    overflow: hidden;
+    /*background-color: green;*/
+    /*color: #B29C75;*/
+    /*position: center;*/
+    color: white;
+    text-decoration: none;
+    /*padding-left: 10em;*/
+
+
+
+}
+
+/**
+ * Skyrim-inspired Menu
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+html {
+  background: #333 url(http://subtlepatterns.com/patterns/tex2res4.png) 0 0 repeat;
+  min-height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #FFF;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+  a:hover, li:hover > a {
+    color: #FFF;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  background: rgba(0, 0, 0, 0.5);
+  float: left;
+  font-size: 1.5em;
+  min-height: 100%;
+  margin-left: 1em;
+  height: 100%;
+}
+
+#menu li {
+  position: relative;
+  z-index: 1;
+}
+
+#menu li a {
+  display: block;
+  padding: 0.5em 1em;
+  white-space: nowrap;
+}
+
+  #menu li ul {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    left: 100%;
+    top: 0.5em;
+    float: none;
+    background-image: -moz-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+    background-image: radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+  }
+  
+  #menu li:hover ul {
+    display: block;
+  }
+  
+  #menu li ul a {
+    position: relative;
+    font-size: 0.8em;
+  }
+  
+  #menu li ul a:hover:before {
+    content: "";
+    display: block;
+    width: 1em;
+    height: 1em;
+    background: rgba(0,0,0,0.75);
+    border: 1px solid #FFF;
+    position: absolute;
+    top: 0.5em;
+    left: -0.75em;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+.active ul li {
+    /*color: #B29C75;*/
+    color: white;
+    float: left;
+    list-style-type: none;
+    /*background-color: white;*/
+    text-decoration: none;
+}
+
+.dropdown div{
+  width: 100%;
+}
+
+.active li a, .dropbtn {
+    display: inline-block;
+    color: #B29C75;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+}
+
+.active li a:hover {
+    background-color: white;
+}
+.dropdown:hover {
+  background-color: white;
+}
+
+#hover_nothing:hover {
+  background-color: #000000;
+}
+
+.dropbtn:hover{
+  background-color: white;
+
+}
+
+.active li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0D0D0D;
+    /*min-width: 60em;*/
+    /*box-shadow: 0em 80em 16em 0em rgba(0,0,0,0.2);*/
+    text-decoration: none;
+    left: -1%
+}
+
+.dropdown-content a {
+    /*color: black;*/
+    padding: 1em 2em;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    /*position: relative;*/
+
+
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*vertical_body settings*/
+
+.vertical_body{
+  
+  background-color: #000000;
+  color: #B29C75; 
+  
+}
+
+#padding_product{
+  padding: 4em;
+}
+
+
+.vertical_body ul{
+  list-style: none;
+}
+
+#product_list{
+  width: 20em;
+  border: 2px solid #bea67c;
+  /*border-left: 2px solid #bea67c;*/
+
+}
+
+
+
+h1{
+    font-size: 2.4em;
+    /*margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 10px; */
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h2{
+    /*font-size: 1em;*/
+    /*margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 10px; */
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .1em;
+}
+
+h3{
+    font-size: 1.6em;
+    /*padding-top: 0.1em;
+    padding-bottom: 0.1em;*/
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #bea67c;
+}
+
+h4{
+    /*padding-top: 0.1em;
+    padding-bottom: 0.1em;*/
+    font-weight: 400;
+    text-transform: uppercase;
+    color:rgba(255,255,255,0.5);
+}

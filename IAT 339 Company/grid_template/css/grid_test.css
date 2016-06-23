@@ -1,0 +1,40 @@
+.vertical_body{
+    z-index: 1000;
+
+}
+
+.vertical_nav{
+    display: block;
+    z-index: 999;
+    /*width: 100em;*/
+    height: 100%; /* Full height */
+    position: fixed;  /*Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    /*float: left;*/
+   
+}
+
+.active{
+	display: none;
+    width: 100%;
+    
+}
+
+@media (max-width: 900px){
+    .vertical_nav{
+    	display: none;
+    }
+
+    .vertical_body{
+    	margin-left:0%;
+    	/*float:right;*/
+        padding-top: 10em;
+	}
+
+	.active{
+	display: block;
+    position: fixed;
+    
+	}
+}
+
