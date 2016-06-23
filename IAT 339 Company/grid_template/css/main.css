@@ -10,18 +10,30 @@ body{
 
 
 /*Vertical Navigation Bar setting*/
+.vertical_nav{
+  top: 0em;
+  right: 0em;
+  left: 0em;
+  bottom: 0em;
+}
+
 .vertical_nav div{
-  /*width: 5em; width of the Nav*/
+  width: 5em;
   /*height: 100em;*/
   background-color: #000000;
-  position: fixed;  /*Make it stick, even on scroll */
+  position: fixed;
 }
 
 .vertical_nav ul{
+  background-color: #000000;
   width: 5em; /*width of the Nav*/
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
+  /*padding-left: 0;
   padding-top: 10em; /*the padding of the icons*/
   list-style: none;
+  position: fixed;
+  height: 100%;
   /*text-align: center;*/
 
 }
@@ -36,15 +48,13 @@ body{
   color: #000000;
   text-align: left;
   opacity: 0.98;
-/*  border-top: 0.1em solid #bda67c;
-  border-right: 0.1em solid #bda67c;*/
-
+  top: 10%;
 }
 
 .vertical_nav ul li ul li{ /*the padding of the text in the pop out vertical nav*/
   padding-left: 2.5em; 
   padding-top: 1em;
-  top: 5%;
+  top: 0%;
 }
 
 .vertical_nav ul li:hover {
@@ -58,6 +68,7 @@ body{
   height: 100em;
   padding: 0em;
   background-color: #0D0D0D;
+  left: 4.9em;
 }
 
 

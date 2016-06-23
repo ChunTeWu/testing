@@ -1,5 +1,5 @@
 #rig {
-    max-width: 900px;
+    max-width: 4000px;
     /*margin-left: 30%;*/
     margin:0 auto; /*center aligned*/
     padding: 0;
@@ -87,7 +87,7 @@
     opacity: 0.9;
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 4000px) {
     #rig li {
         width: 25%;
     }
