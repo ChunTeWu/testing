@@ -45,12 +45,11 @@ body{
 .vertical_nav ul li ul li{ /*the padding of the text in the pop out vertical nav*/
   padding-left: 2.5em; 
   padding-top: 1.5em;
-
-
 }
 
 .vertical_nav ul li:hover {
-    background-color: white;
+    background-color: #0D0D0D;
+    transform: scale(1.05);
     /*color: white;*/
 }
 
@@ -240,7 +239,7 @@ body{
 
 
 h1{
-    font-size: 2.2em;
+    font-size: 2.4em;
     /*margin-top: 0px;
     margin-bottom: 20px;
     padding-left: 10px; */
@@ -258,6 +257,15 @@ h2{
     text-transform: uppercase;
     color: #fff;
     letter-spacing: .1em;
+}
+
+h3{
+    font-size: 1.6em;
+    /*padding-top: 0.1em;
+    padding-bottom: 0.1em;*/
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #bea67c;
 }
 
 h4{
@@ -431,7 +439,7 @@ h4{
 /*----------------------buttons-------------------------*/
 .button-CS {
   display: inline-block;
-  padding: 0.8em 2.8em; /*Clears an area around the content.*/
+  padding: 1.4em 3.2em; /*Clears an area around the content.*/
   margin: 2em 1em 0em 0em; /*Clears an area outside the border.*/
   color: #bea67c;
   border: 2px solid #bea67c;
@@ -453,7 +461,7 @@ h4{
 /* Styling for the Checkout button */
 .button-checkout {
   display: inline-block;
-  padding: 0.8em 2.8em;
+  padding: 1.4em 3.2em;
   color: #000;
   background-color: #bea67c;
   border: 2px solid #bea67c;
@@ -475,7 +483,7 @@ h4{
 /* Styling for the placeorder button */
 .button-placeorder {
   display: inline-block;
-  padding: 0.8em 2.8em;
+  padding: 1.4em 3.2em;
   color: #000;
   background-color: #bea67c;
   border: 2px solid #bea67c;
@@ -496,7 +504,7 @@ h4{
 
 .button-add {
   display: inline-block;
-  padding: 0.8em 2.8em; /*Clears an area around the content.*/
+  padding: 1.4em 3.2em; /*Clears an area around the content.*/
   margin: 2em 1em 0em 0em; /*Clears an area outside the border.*/
   color: #bea67c;
   border: 2px solid #bea67c;
@@ -624,7 +632,7 @@ p.productDetail {
   /*padding: 4em 0em 4em 0em;*/
   padding-top: 1em;
   color: rgba(255,255,255,0.5);
-  font-size: 0.6em;
+  font-size: 0.7em;
   /*text-transform: uppercase;*/
   letter-spacing: .1em;
   line-height: 200%;

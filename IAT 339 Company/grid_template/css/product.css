@@ -1,103 +1,106 @@
 #rig {
-    max-width:900px;
+    max-width: 900px;
+    /*margin-left: 30%;*/
     margin:0 auto; /*center aligned*/
-    padding:0;
-    font-size:0; /* Remember to change it back to normal font size if have captions */
-    list-style:none;
-    background-color:#000;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    background-color: #000;
 }
+
 #rig li {
     display: inline-block;
-    *display:inline;/*for IE6 - IE7*/
-    width:25%;
-    vertical-align:middle;
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+    *display: inline;/*for IE6 - IE7*/
+    width: 25%;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
         
 /* The wrapper for each item */
 .rig-cell {
-    display:block;
+    display: block;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
 }
         
 /* If have the image layer */
 .rig-img {
-    display:block;
+    display: block;
     width: 100%;
     height: auto;
-    border:none;
-    transform:scale(1);
-    transition:all 1s;
+    border: none;
+    transform: scale(1);
+    transition: all 1s;
 }
 
 #rig li:hover .rig-img {
-    transform:scale(1.05);
+    transform: scale(1.05);
 }
         
 /* If have the overlay layer */
 .rig-overlay {
     position: absolute;
-    display:block;
+    display: block;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     margin: auto;
     background: #000 no-repeat center 10%;
-    background-size:50px 50px;
-    opacity:0;
-    filter:alpha(opacity=0);/*For IE6 - IE8*/
-    transition:all 0.6s;
+    background-size: 50px 50px;
+    opacity: 0;
+    filter: alpha(opacity=0);/*For IE6 - IE8*/
+    transition: all 0.6s;
 }
 
 #rig li:hover .rig-overlay {
-    opacity:0.8;
+    opacity: 0.8;
 }
 
 /* If have captions */
 .rig-text {
-    display:block;
-    padding:0 30px;
-    box-sizing:border-box;
-    position:absolute;
-    left:0;
-    width:100%;
-    text-align:center;
-    text-transform:capitalize;
-    font-size:18px;
-    font-weight:bold;
+    display: block;
+    padding: 0 1em;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    top:40%;
-    color:white;
-    opacity:0;
-    filter:alpha(opacity=0);/*For older IE*/
-    transform:translateY(-20px);
-    transition:all .3s;
+    letter-spacing: .1em;
+    line-height: 160%;
+    top: 40%;
+    color: white;
+    opacity: 0;
+    filter: alpha (opacity=0);/*For older IE*/
+    transform: translateY(-20px);
+    transition: all .3s;
 }
 
 #rig li:hover .rig-text {
-    transform:translateY(0px);
-    opacity:0.9;
+    transform: translateY(0px);
+    opacity: 0.9;
 }
 
-@media (max-width: 9000px) {
+@media (max-width: 1330px) {
     #rig li {
-        width:25%;
+        width: 25%;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     #rig li {
-        width:33.33%;
+        width: 33.33%;
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 480px) {
     #rig li {
-        width:50%;
+        width: 50%;
     }
 }
