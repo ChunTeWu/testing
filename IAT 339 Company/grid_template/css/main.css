@@ -11,7 +11,7 @@ body{
 
 /*Vertical Navigation Bar setting*/
 .vertical_nav div{
-  width: 5em; /*width of the Nav*/
+  /*width: 5em; width of the Nav*/
   /*height: 100em;*/
   background-color: #000000;
   position: fixed;  /*Make it stick, even on scroll */
@@ -544,15 +544,17 @@ h4{
 
 /*cart_elements-----------------------------------------------*/
 
-#icon_trash {
+.icon_trash {
   width: 2em;
   height: 2em;
+  padding: 1em;
+  padding-bottom: 5em;
   /*padding-top: 4em;*/
 
 }
 
 .cart_item{
-  width:10em;
+  width:8em;
 }
 
 .cart_text{
@@ -563,6 +565,53 @@ h4{
 
 .cart_price{
   width: 5em;
+}
+
+.cart_box {
+    display: inline-block;
+    width: 12em;
+    /*height: 100%;*/
+    margin: 1em;
+    /*border: 0.2em solid #bea67c;  */
+    margin-right: 0;
+    margin-left: 2em;
+    margin-top: 2em;
+    color: white;
+    /*background-color: #B29C75;*/
+    /*position: relative;*/
+}
+
+.cart_box2 {
+    display: inline-block;
+    width: 7em;
+    /*height: 100%;*/
+    margin: 1em;
+    /*border: 0.2em solid #bea67c;  */
+    margin-right: 0;
+    margin-left: 15em;
+    color: white;
+    margin-top: 4em;
+    /*background-color: #B29C75;*/
+    /*position: relative;*/
+}
+
+.cart_price {
+    display: inline-block;
+    width: 30em;
+    /*height: 100%;*/
+    margin: 1em;
+    /*border: 0.2em solid #bea67c;  */
+    margin-right: 0;
+    margin-left: -10em;
+    color: white;
+    margin-top: 15em;
+    border-top: 0.1em solid #bda67c;
+    
+    position: relative;
+}
+
+div.cart_box, div.cart_box2, div.cart_price{
+  background-color: #0D0D0D;
 }
 
 
