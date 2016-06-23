@@ -12,7 +12,7 @@ body{
 /*Vertical Navigation Bar setting*/
 .vertical_nav div{
   width: 5em; /*width of the Nav*/
-  height: 100em;
+  /*height: 100em;*/
   background-color: #000000;
   position: fixed;  /*Make it stick, even on scroll */
 
@@ -61,6 +61,8 @@ body{
   background-color: #0D0D0D;
 }
 
+
+
 .vertical_nav ul li a{
   color: #bda67c;
   text-decoration: none;
@@ -101,6 +103,7 @@ body{
 
 #vertical_nav_padding_top3{  /*space for the top of the pop out list*/
   padding-top: 15em;
+  width: 35em;
 }
 
 #vertical_nav_padding_top4{  /*space for the top of the pop out list*/
@@ -345,6 +348,15 @@ h4{
 
 }
 
+.metro_box3{
+  
+  width: 60em;
+  height: 15em;
+
+  /*top:-4em;*/
+
+}
+
 .metro_box2 img{
   opacity: 0.9;
 
@@ -503,6 +515,8 @@ h4{
   border: 2px solid #bea67c;
 }
 
+
+/*icon------------------------------------------------------*/
 .icon_head{
   width: 3em;
   padding: 0.8em;
@@ -514,6 +528,8 @@ h4{
   padding-top: 0.4em;
 }
 
+
+
 .icon_head_horizontal{
   width: 3em;
   padding: 0.8em;
@@ -524,6 +540,32 @@ h4{
   padding-right: 0.1em;
   padding-top: 0.4em;
 }
+
+
+/*cart_elements-----------------------------------------------*/
+
+#icon_trash {
+  width: 2em;
+  height: 2em;
+  /*padding-top: 4em;*/
+
+}
+
+.cart_item{
+  width:10em;
+}
+
+.cart_text{
+  width: 10em;
+  height: 5em;
+  /*position: relative;*/
+}
+
+.cart_price{
+  width: 5em;
+}
+
+
 
 #bottom_text{
   padding-top: 30em;
