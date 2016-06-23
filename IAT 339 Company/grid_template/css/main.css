@@ -580,3 +580,69 @@ p.productDetail {
   letter-spacing: .1em;
   line-height: 200%;
 }
+
+
+/*----------------------Payment Page-------------------------*/
+.field input{
+  padding:0.8rem ;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  /*border: 0.1rem solid #fff opacity 0.5;*/
+  /*border-left: 0 solid white;*/
+  display: inline-block;
+  float: left;
+}
+.email-input label{
+  top: 0.3rem;
+}
+.field-full{
+  width: 100%;
+}
+.field-half{
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+.field-left{
+  padding: 0.5rem 0.3rem 0.5rem 0rem;
+}
+.field-right{
+  padding: 0.5rem 0rem 0.5rem 0.3rem;
+}
+.field-center{
+  padding: 0.5rem 0.3rem;
+}
+.field-medium{
+  width: 66.67%;
+  display: inline-block;
+  float: left;
+}
+.field-small{
+  width: 33.33%;
+  display: inline-block;
+  float: left;
+}
+.shipping-method label{
+  padding-left: 1rem;
+  display: inline-block;
+}
+.shipping-method input{
+  width: auto;
+  margin-top: 0.2rem;
+}
+.shipping-method {
+  display: inline-block;
+  width: 100%;
+  padding:0.8rem;
+  border:0.1rem solid #C9C9C9;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.shipping-price{
+  padding-right: 2rem;
+  display: inline-block;
+  float: right;
+  font-weight: 400;
+  color: #a1caca;
+}

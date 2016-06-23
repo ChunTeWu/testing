@@ -88,6 +88,26 @@
 }
 
 
+/*styling the grids for Payment Page*/
+.floating-box-payment {
+    display: inline-block;
+    width: 50%;
+    height: 50em;
+    margin: 2em 1em 0em 0em;
+    border: 0.1em solid #000;
+}
+
+.floating-box-product {
+    display: inline-block;
+    width: 30%;
+    height: 50em;
+    margin: 2em 1em 0em 0em;
+    border: 0.1em solid #bea67c;
+}
+
+.after-box {
+    border: 0.1em solid red;
+}
 
 /*.grid_img img{
     margin-left: 0;
