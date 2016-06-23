@@ -57,6 +57,35 @@
     /*float: right;*/
 }
 
+.grid_img{  
+    width: 58em;
+    height: 60em;
+    /*display: inline-block;*/
+    display: inline-block;
+    /*position: fixed;*/
+    /*visibility: hidden;*/
+
+}
+
+.grid_product_text{  
+    width: 47em;
+    /*height: 60em;*/
+    display: inline-block;
+    padding: 3em;
+    padding-bottom: 0;
+
+}
+
+.detail_img{
+  width: 100%;
+  height: 100%;
+  /*position: fixed;*/
+}
+
+/*.grid_img img{
+    margin-left: 0;
+}*/
+
 /*.item {
   width: 290px;
   margin: 10px;

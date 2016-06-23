@@ -211,10 +211,14 @@ body{
 /*vertical_body settings*/
 
 .vertical_body{
-  padding: 4em;
+  
   background-color: #000000;
   color: #B29C75; 
   
+}
+
+#padding_product{
+  padding: 4em;
 }
 
 
@@ -448,4 +452,8 @@ h1{
   width: 2em;
   padding-right: 0.1em;
   padding-top: 0.4em;
+}
+
+#bottom_text{
+  padding-top: 30em;
 }
