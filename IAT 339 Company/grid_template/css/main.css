@@ -432,6 +432,28 @@ h1{
   border: 2px solid #bea67c;
 }
 
+/* Styling for the placeorder button */
+.button-placeorder {
+  display: inline-block;
+  padding: 0.8em 2.8em;
+  color: #000;
+  background-color: #bea67c;
+  border: 2px solid #bea67c;
+  border-radius: 0em;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: .2em;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.button-placeorder:hover, .button-placeorder:focus {
+  color: white;
+  color: #bea67c;
+  border: 2px solid #bea67c;
+}
+
 .icon_head{
   width: 3em;
   padding: 0.8em;
