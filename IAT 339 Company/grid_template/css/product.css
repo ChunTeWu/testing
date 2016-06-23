@@ -17,6 +17,16 @@
     margin: 0;
     padding: 0;
 }
+
+#rig div {
+    display: inline-block;
+    *display: inline;/*for IE6 - IE7*/
+    width: 25%;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
         
 /* The wrapper for each item */
 .rig-cell {
@@ -38,6 +48,10 @@
 #rig li:hover .rig-img {
     transform: scale(1.05);
 }
+
+#rig div:hover .rig-img {
+    transform: scale(1.05);
+}
         
 /* If have the overlay layer */
 .product_collage .rig-overlay {
@@ -56,6 +70,10 @@
 }
 
 #rig li:hover .rig-overlay {
+    opacity: 0.8;
+}
+
+#rig div:hover .rig-overlay {
     opacity: 0.8;
 }
 
@@ -87,6 +105,11 @@
     opacity: 0.9;
 }
 
+#rig div:hover .rig-text {
+    transform: translateY(0px);
+    opacity: 0.9;
+}
+
 @media (max-width: 4000px) {
     #rig li {
         width: 25%;
@@ -103,4 +126,8 @@
     #rig li {
         width: 50%;
     }
+}
+
+.product_collage{
+    padding-left: 10em;
 }

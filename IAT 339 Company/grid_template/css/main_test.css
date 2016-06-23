@@ -330,9 +330,13 @@ li {
   float: left;
   font-size: 1.5em;
   min-height: 100%;
-  margin-left: 1em;
+  /*margin-left: 1em;*/
   height: 100%;
+  position: fixed;
+  z-index: 9999;
 }
+
+
 
 #menu li {
   position: relative;
