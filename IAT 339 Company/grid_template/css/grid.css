@@ -60,6 +60,7 @@
 .grid_img{  
     width: 58em;
     height: 60em;
+    /*top: -10em;*/
     /*display: inline-block;*/
     display: inline-block;
     /*position: fixed;*/
@@ -73,6 +74,10 @@
     display: inline-block;
     padding: 3em;
     padding-bottom: 0;
+    padding: 0;
+    margin-left: 5em;
+    /*line-height: 100%;*/
+    /*padding-left: 2em;*/
 
 }
 

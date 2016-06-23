@@ -226,7 +226,7 @@ h5{
 }
 
 /* Styling for paragraph */
-p.productDetail {
+p.productDetail{
   padding: 4em 0em 4em 0em;
   color: rgba(255,255,255,0.5);
   font-size: 0.6em;
