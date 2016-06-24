@@ -10,7 +10,7 @@
 
 
 
-@media (max-width: 800px){
+@media (max-width: 1100px){
     #menu{
         display: none;
     }
@@ -41,16 +41,14 @@
 /*-----------------product detail page------------*/
 .product_detail_box {
     display: inline-block;
-    /*display: block;*/
-
+    /*background-color: #000000;*/
     width: 34%;
-    height: 100%;
+    /*height: 100%;*/
     margin: 0;
     padding: 5em;
-    border: 0.2em solid #bea67c;  
+    /*border: 0.2em solid #bea67c;  */
     margin-right: 0;
     margin-left: 0;
-    /*position: relative;*/
     position: fixed;
     /*float: right;*/
     right: 0;
@@ -59,18 +57,10 @@
 
 .product_detail_img {
     display: inline-block;
-    /*display: block;*/
+    /*background-color: #000000;*/
     width: 55%;
     /*height: 100%;*/
     margin: 0;
-    /*border: 0.2em solid #bea67c;  */
-    /*margin-right: 0;*/
-    /*margin-left: 0;*/
-    /*position: relative;*/
-    /*position: fixed;*/
-    /*overflow: auto;*/
-    /*float: right;*/
-    /*right: 0;*/
 
 }
 
@@ -93,3 +83,43 @@
     width: 49.4%;
 }
 
+@media (max-width: 1100px){
+
+    .product_detail_box {
+        background-color: #000000;
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-bottom: 0;
+        width: 100%;   
+        left: 0;
+    }
+
+    .product_detail_img {
+        margin-top: 35%;
+        width: 100%;
+    }
+
+    .button-add {
+      margin: 1em 1em 0em 0em; /*Clears an area outside the border.*/
+    }
+
+    .product_detail_box h1, .product_detail_box h4, .product_detail_box h3{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    p.productDetail{
+      padding: 0em 3em 0em 0em;
+      line-height: 175%;
+    }
+
+    .product_detail_hint{
+        left: 50%;
+
+    }
+
+
+
+
+    
+}
