@@ -1,0 +1,30 @@
+/*---------------Navigation switching------------------*/
+.active{
+    display: none;
+    
+}
+
+.body_context{
+  padding-left: 5.5em;
+}
+
+
+
+@media (max-width: 600px){
+    #menu{
+        display: none;
+    }
+
+    .active{
+    display: block;
+    position: fixed;
+    
+    }
+
+    .body_context{
+        padding-top: 4em;
+        padding-left: 0;
+    }
+
+    
+}

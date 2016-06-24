@@ -1,0 +1,21 @@
+html {
+  /*background: #333 url(http://subtlepatterns.com/patterns/tex2res4.png) 0 0 repeat;*/
+  padding: 0;
+}
+
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: black;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+
+
+
+

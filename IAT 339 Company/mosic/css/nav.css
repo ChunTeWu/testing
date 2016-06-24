@@ -1,0 +1,211 @@
+/*Horizontal Navigation Bar elements*/
+.active{
+  width: 100%;
+  padding: 1em;
+  background-color: #000000;
+  text-decoration: none;
+  margin: 0;
+  position: fixed;
+
+}
+
+.active ul {
+  list-style-type: none;
+  overflow: hidden;
+  color: white;
+  text-decoration: none;
+}
+
+
+.active ul li {
+    /*color: #B29C75;*/
+    color: white;
+    float: left;
+    list-style-type: none;
+    /*background-color: white;*/
+    text-decoration: none;
+}
+
+.dropdown div{
+  width: 100%;
+}
+
+.active li a, .dropbtn {
+    display: inline-block;
+    /*color: #B29C75;*/
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    text-decoration: none;
+}
+
+.active li a:hover {
+    /*background-color: white;*/
+}
+.dropdown:hover {
+  /*background-color: white;*/
+}
+
+.dropbtn:hover{
+  /*background-color: white;*/
+}
+
+#hover_nothing:hover {
+  background-color: #000000;
+}
+
+
+
+.active li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*background-color: #0D0D0D;*/
+    background-image: -moz-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+    background-image: radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+
+    /*box-shadow: 0em 80em 16em 0em rgba(0,0,0,0.2);*/
+    text-decoration: none;
+    left: -1%;
+    /*top: 3em;*/
+    /*bottom: -50%;*/
+}
+
+.dropdown-content a {
+    /*color: black;*/
+    padding: 1em 2em;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    /*position: relative;*/
+}
+
+.dropdown-content a:hover {
+  /*background-color: black;*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.icon_head_horizontal{
+  width: 2em;
+  padding: 0.3em;
+  padding-right: 5em;
+}
+
+.icon_horizontal{
+  width: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+  /*padding-top: 0.4em;*/
+}
+
+
+
+
+
+/*--------------------------Vertical Navigation Elements-----------------------------------*/
+
+.icon_vertical{
+  width: 1em;
+  padding-left: 0.3em;
+  padding-top: 0.4em;
+}
+
+.icon_head{
+  width: 2em;
+  padding: 0.8em;
+  padding-bottom: 8em;
+}
+
+
+#menu {
+  /*display: none;*/
+  /*border-left: 1px solid #FFF;*/
+  /*border-right: 1px solid #FFF;*/
+  background: black;
+  float: left;
+  font-size: 1.5em;
+  min-height: 100%;
+  /*margin-left: 1em;*/
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  top: 0;
+}
+
+
+
+#menu li {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li a {
+  display: block;
+  padding: 0.5em 1em;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+#menu a:hover, li:hover > a {
+    color: #FFF;
+  }
+
+#menu li ul {
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    left: 100%;
+    top: 0.5em;
+    float: none;
+    background-image: -moz-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+    background-image: radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+}
+
+#vertical_cart{
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    left: 100%;
+    top: 0.5em;
+    float: none;
+    background-color: black;
+}
+  
+  #menu li:hover ul {
+    display: block;
+  }
+  
+  #menu li ul a {
+    position: relative;
+    font-size: 0.8em;
+  }
+  
+  #menu li ul a:hover:before {
+    content: "";
+    display: block;
+    width: 1em;
+    height: 1em;
+    background: rgba(0,0,0,0.75);
+    border: 1px solid #FFF;
+    position: absolute;
+    top: 0.5em;
+    left: -0.75em;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
