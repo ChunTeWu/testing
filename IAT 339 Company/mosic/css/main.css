@@ -12,7 +12,83 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: gray;
+  background-color: #000000;
+}
+
+
+h1{
+    font-size: 2.2em;
+    /*margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 10px; */
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h2{
+    font-size: 2em;
+    /*padding-top: 0.1em;
+    padding-bottom: 0.1em;*/
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h3{
+    /*padding-top: 0.1em;
+    padding-bottom: 0.1em;*/
+    font-weight: 400;
+    text-transform: uppercase;
+    color:rgba(255,255,255,0.5);
+}
+
+h4{
+    /*padding-top: 0.1em;
+    padding-bottom: 0.1em;*/
+    font-weight: 400;
+    text-transform: uppercase;
+    color:rgba(255,255,255,0.5);
+}
+
+h5{
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    font-weight: 400;
+    color: #bbbbbb;
+}
+
+
+p{
+  padding: 4em 0em 4em 0em;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 200%;
+}
+
+/*--------------------button style-------*/
+
+.button-add {
+  display: inline-block;
+  padding: 0.8em 2.8em; /*Clears an area around the content.*/
+  margin: 2em 1em 0em 0em; /*Clears an area outside the border.*/
+  color: #bea67c;
+  border: 2px solid #bea67c;
+  border-radius: 0em;
+  font-size: 0.8em;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: .2em;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.button-add:hover, .button-add:focus {
+  color: #0b0b0d;
+  background-color: #bea67c;
+  border: 2px solid #bea67c;
 }
 
 
