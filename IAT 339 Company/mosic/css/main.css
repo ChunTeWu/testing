@@ -86,7 +86,24 @@ p{
   transition: background-color 0.2s ease-out;
 }
 
-.button-add:hover, .button-add:focus {
+.button-checkout {
+  display: inline-block;
+  padding: 0.8em 2.8em; 
+
+  /*margin: 2em 1em 0em 0em; */
+  color: #bea67c;
+  border: 2px solid #bea67c;
+  border-radius: 0em;
+  font-size: 0.8em;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: .2em;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.button-add:hover, .button-add:focus, .button-checkout:hover, .button-checkout:focus{
+
   color: #0b0b0d;
   background-color: #bea67c;
   border: 2px solid #bea67c;
@@ -226,6 +243,9 @@ p{
     opacity: 0.9;
 }
 
+
+
+/*testing grid*/
 
 
 

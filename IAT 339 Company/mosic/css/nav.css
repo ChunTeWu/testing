@@ -196,16 +196,138 @@
     background-image: radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 33%, rgba(0,0,0,0) 100%);
 }
 
-#vertical_cart{
-    padding: 0;
-    position: absolute;
-    overflow: hidden;
-    display: none;
-    left: 100%;
-    top: 0.5em;
-    float: none;
+/*vertical nav like element*/
+
+#menu #vertical_like{
+    width: 20em;
+    height: 40em;
+    top: -16em;
     background-color: black;
 }
+
+
+
+/*vertical nav cart element*/
+
+#menu #vertical_cart{
+    width: 20em;
+    height: 40em;
+    top: -18.5em;
+    background-color: black;
+}
+
+.cart_box h2{
+    font-size: 1em;
+}
+
+.cart_box h3{
+    font-size: 0.6em;
+}
+
+.cart_box {
+    display: inline-block;
+    width: 99%;
+    height: 8em;
+    border-top: 0.1em solid rgba(255,255,255,0.3);  
+    /*border: 0.1em solid #bea67c;*/
+}
+
+h3.cart_box, h4.cart_box{
+  display: inline;
+}
+
+.cart_box div{
+  display: inline-block;
+}
+
+.cart_box_section1{
+  width: 8%;
+  /*height: 100%;*/
+  /*border: 0.2em solid #bea67c;*/
+
+
+}
+
+.cart_box_section1 img{
+  width: 100%;
+ 
+  margin-bottom: 2em;
+  margin-right: 1.5em;
+  /*padding-bottom: 2em;*/
+}
+
+.cart_box_section2{
+
+  width: 30%;
+  height: 100%;
+  /*border: 0.2em solid #bea67c;*/
+
+}
+
+.cart_box_section2 img{
+  width: 100%;
+  padding-top: 1em;
+}
+
+.cart_box_section3{
+  width: 7em;
+  vertical-align: top;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0;
+  /*border: 0.2em solid #bea67c;*/
+}
+
+.cart_box_section3 h4{
+  margin: 0;
+}
+
+.cart_box_section4{
+  width: 2.5em;
+  vertical-align: top;
+  padding-top: 2em;
+  padding-left: 0.5em;
+  padding-right: 0;
+  /*border: 0.2em solid #bea67c;*/
+
+}
+
+.cart_box_section4 h4{
+  font-size: 1em;
+  color: #bea67c;
+}
+
+.cart_box_total{
+  width: 9em;
+  
+  /*border: 0.1em solid #bea67c;*/
+
+}
+
+.cart_box_price{
+  width: 9.5em;
+  text-align: right;
+  /*border: 0.1em solid #bea67c;*/
+}
+
+.cart_box_button{
+  /*width: 100%;*/
+  margin-left: 8%;
+  padding-top: 1.3em;
+
+}
+
+.button-checkout:hover a{
+  content: none;
+
+}
+
+#menu .button-checkout{
+  padding-left: 7em;
+  padding-right: 7em;
+}
+
+
   
   #menu li:hover ul {
     display: block;
@@ -230,3 +352,9 @@
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+  #menu li ul li div a:hover:before{
+    content: none;
+
+  }
+
