@@ -123,3 +123,36 @@
 
     
 }
+
+/*-------product page grid----------*/
+
+.product_collage{
+    padding-left: 5%;
+}
+
+@media (max-width: 4000px) {
+    #rig li {
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    #rig li {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 480px) {
+    #rig li {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1100px) {
+    div.product_collage{
+        padding-left: 0;
+        padding-top: 8%;
+    }
+}
+
+
