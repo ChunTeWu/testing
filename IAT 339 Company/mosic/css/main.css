@@ -115,6 +115,25 @@ p{
     padding: 0;
 }
 
+#rig li ul li{
+
+    width: 50%;
+
+}
+
+
+#rin .4x4{
+
+    width: 10%;
+
+}
+
+
+#rig li ul {
+    
+    padding: 0;
+}
+
 #rig div {
     display: inline-block;
     *display: inline;/*for IE6 - IE7*/
@@ -142,11 +161,11 @@ p{
     transition: all 1s;
 }
 
-#rig li:hover .rig-img {
+#rig .rig-cell:hover .rig-img {
     transform: scale(1.05);
 }
 
-#rig div:hover .rig-img {
+#rig .rig-cell:hover .rig-img {
     transform: scale(1.05);
 }
         
@@ -166,11 +185,11 @@ p{
     transition: all 0.6s;
 }
 
-#rig li:hover .rig-overlay {
+#rig .rig-cell:hover .rig-overlay {
     opacity: 0.8;
 }
 
-#rig div:hover .rig-overlay {
+#rig .rig-cell:hover .rig-overlay {
     opacity: 0.8;
 }
 
@@ -197,15 +216,17 @@ p{
     transition: all .3s;
 }
 
-#rig li:hover .rig-text {
+#rig .rig-cell:hover .rig-text {
     transform: translateY(0px);
     opacity: 0.9;
 }
 
-#rig div:hover .rig-text {
+#rig .rig-cell:hover .rig-text {
     transform: translateY(0px);
     opacity: 0.9;
 }
+
+
 
 
 
