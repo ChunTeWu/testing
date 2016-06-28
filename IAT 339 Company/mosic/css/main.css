@@ -83,6 +83,13 @@ h1.super_text {
   letter-spacing: .1em;
 }
 
+h1.ultra_text {
+  font-size: 11em;
+  font-weight: 500;
+  letter-spacing: .1em;
+
+}
+
 /*--------------------button style-------*/
 
 .button-add, form input[type=submit] {
@@ -318,6 +325,9 @@ select {
   background-color: #e5e4e4;
 
 }
+
+
+/*-------------login page elements--------------*/
 
 
 
