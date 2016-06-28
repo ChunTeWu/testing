@@ -210,7 +210,7 @@
   /*padding-top: 0.4em;*/
 }
 
-#horizontal_about a{
+#horizontal_about a, #horizontal_account a{
   color: #bea67c;
   letter-spacing: .15em; 
   font-size: 0.5em;
@@ -329,6 +329,14 @@
 /*vertical nav cart element*/
 
 #menu #vertical_cart{
+    width: 20em;
+    height: 40em;
+    top: -18.5em;
+    background-color: black;
+}
+
+
+#menu #vertical_cart_checkout{ /*avoid multi ID*/
     width: 20em;
     height: 40em;
     top: -18.5em;

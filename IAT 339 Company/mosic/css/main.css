@@ -254,12 +254,25 @@ h1.ultra_text {
     transition: all .3s;
 }
 
-.rig-text p{
+/*.rig-text p{
   margin-left: 10%;
   margin-top: 0;
   padding: 0;
   line-height: 150%;
   text-align: left;
+}*/
+
+.body_context ul li span span{
+  display: inline-block;
+  margin-top: 0;
+  padding: 0;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 150%;
+  text-align: left;
+  margin-left: 10%;
 }
 
 #rig .rig-cell:hover .rig-text {
@@ -274,10 +287,12 @@ h1.ultra_text {
 
 @media (max-width: 1100px){
     .rig-text{
+      top: 30%;
       font-size: 12px;
     }
 
-    .rig-text p{
+    .body_context ul li span span{
+      font-size: 0.4em;
       line-height: 100%;
       text-align: left;
     }  
