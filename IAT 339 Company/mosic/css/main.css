@@ -69,9 +69,15 @@ p{
   line-height: 200%;
 }
 
+h1.super_text {
+  font-size: 6em;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+
 /*--------------------button style-------*/
 
-.button-add {
+.button-add, form input[type=submit] {
   display: inline-block;
   padding: 0.8em 2.8em; /*Clears an area around the content.*/
   margin: 2em 1em 0em 0em; /*Clears an area outside the border.*/
@@ -102,7 +108,7 @@ p{
   transition: background-color 0.2s ease-out;
 }
 
-.button-add:hover, .button-add:focus, .button-checkout:hover, .button-checkout:focus{
+.button-add:hover, .button-add:focus, .button-checkout:hover, .button-checkout:focus, form input[type=submit]:hover, form input[type=submit]:focus{
 
   color: #0b0b0d;
   background-color: #bea67c;
@@ -244,12 +250,32 @@ p{
 }
 
 
+/*contact page elements*/
+
+form input[type=text],
+form input[type=password],
+textarea {
+  width: 80%;
+  height: 3em;
+  margin-bottom: 2em;
+  padding-left: 1em;
+  margin-top: 1em;
+  background: #e5e4e4;
+  border: none;
+  color: #4a4949;
+  outline: none;
+}
+
+textarea{
+  height: 8em;
+}
+
+form input[type=submit]{
+  background-color: #000000;
+  margin-left: 15%;
+}
+
+
 
 /*testing grid*/
-
-
-
-
-
-
 
