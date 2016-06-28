@@ -63,10 +63,10 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    /*background-color: #0D0D0D;*/
-    background-image: -moz-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+    background-color: rgba(0,0,0, 0.8);
+    /*background-image: -moz-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
     background-image: -webkit-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
-    background-image: radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+    background-image: radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);*/
 
     /*box-shadow: 0em 80em 16em 0em rgba(0,0,0,0.2);*/
     text-decoration: none;
@@ -304,9 +304,10 @@
     left: 100%;
     top: 0.5em;
     float: none;
-    background-image: -moz-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 33%, rgba(0,0,0,0) 100%);
+    background-color: rgba(0,0,0, 0.8);
+    /*background-image: -moz-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 33%, rgba(0,0,0,0) 100%);
     background-image: -webkit-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 33%, rgba(0,0,0,0) 100%);
-    background-image: radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 33%, rgba(0,0,0,0) 100%);
+    background-image: radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 33%, rgba(0,0,0,0) 100%);*/
 }
 
 #menu li ul li div div a{
