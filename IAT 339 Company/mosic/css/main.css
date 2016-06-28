@@ -47,16 +47,24 @@ h3{
 h4{
     /*padding-top: 0.1em;
     padding-bottom: 0.1em;*/
+    font-size: 1.1em;
     font-weight: 400;
     text-transform: uppercase;
-    color:rgba(255,255,255,0.5);
+    color:rgba(255,255,255,0.7);
 }
 
-h5{
+/*h5{
     padding-top: 0.1em;
     padding-bottom: 0.1em;
     font-weight: 400;
     color: #bbbbbb;
+}*/
+
+h5{
+    font-size: 1.1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #bea67c;
 }
 
 
@@ -250,7 +258,7 @@ h1.super_text {
 }
 
 
-/*contact page elements*/
+/*------------------contact page elements--------------*/
 
 form input[type=text],
 form input[type=password],
@@ -273,6 +281,42 @@ textarea{
 form input[type=submit]{
   background-color: #000000;
   margin-left: 15%;
+}
+
+/*--------------check out elements-------------------*/
+
+h4#billing_padding {
+  padding-bottom: 3em;
+
+}
+
+.checkout_info h4 a{
+  color: #bea67c;
+
+}
+
+
+
+label {
+  /*padding: 4em 0em 4em 0em;*/
+  color: rgba(255,255,255,0.7);
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 200%;
+}
+
+select {
+
+  /*color: rgba(255,255,255,0.7);*/
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 200%;
+  margin-bottom: 2em;
+  padding: 0.5em;
+  background-color: #e5e4e4;
+
 }
 
 
