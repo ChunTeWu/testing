@@ -449,7 +449,7 @@ h3.cart_box, h4.cart_box{
 
 .cart_box_button{
   /*width: 100%;*/
-  margin-left: 8%;
+  margin-left: 25%;
   padding-top: 1.3em;
 
 }
@@ -460,8 +460,11 @@ h3.cart_box, h4.cart_box{
 }
 
 #menu .button-checkout{
-  padding-left: 7em;
-  padding-right: 7em;
+/*  padding-left: 7em;
+  padding-right: 7em;*/
+  padding: 0.8em 2.8em; 
+  font-size: 0.6em;
+  color: #bea67c;
 }
 
 
