@@ -403,16 +403,16 @@ h4.border_on_top{
 
 /*----------product detail page---------*/
 
- .animated {
-    -webkit-transition: height 0.2s;
-    -moz-transition: height 0.2s;
-    transition: height 0.2s;
+span.star_on {
+  font-size: 40px;
+  color: #bea67c;
+  cursor: pointer;
 }
 
-.stars{
-    margin: 20px 0;
-    font-size: 24px;
-    color: #d17581;
+span.star_on:hover:before {
+  content: "\2605";
+  position: absolute;
+  color: #bea67c;
 }
 
 
