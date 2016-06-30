@@ -45,13 +45,10 @@
     position: absolute;
     /*float: right;*/
     left: 50%;
-    top: 30%;
-    
-
+    top: 40%;
 }
 
 .index_text_box p{
-    padding: 1.5em;
     margin-top: 0;
 }
 

@@ -17,7 +17,7 @@ body{
 
 
 h1{
-    font-size: 2.2em;
+    font-size: 2.6em;
     /*margin-top: 0px;
     margin-bottom: 20px;
     padding-left: 10px; */
@@ -45,10 +45,12 @@ h3{
 }
 
 h4{
+    position: relative;
+    top: -14px;
     /*padding-top: 0.1em;
     padding-bottom: 0.1em;*/
     font-size: 1.1em;
-    font-weight: 400;
+    font-weight: 200;
     text-transform: uppercase;
     color:rgba(255,255,255,0.7);
 }
@@ -61,14 +63,15 @@ h4{
 }*/
 
 h5{
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-weight: 400;
     text-transform: uppercase;
-    color: #bea67c;
+    letter-spacing: .1em;
+    color:rgba(255,255,255,0.7);
 }
 
 p{
-  padding: 4em 0em 4em 0em;
+  padding: 0em 0em 4em 0em;
   color: rgba(255,255,255,0.5);
   font-size: 0.65em;
   text-transform: uppercase;
@@ -95,7 +98,7 @@ h1.ultra_text {
 .button-more {
   display: inline-block;
   padding: 0.8em 2.8em; /*Clears an area around the content.*/
-  margin: 2em 1em 0em 0em; /*Clears an area outside the border.*/
+  margin: 2em 1em 2em 0em; /*Clears an area outside the border.*/
   color: #bea67c;
   border: 2px solid #bea67c;
   border-radius: 0em;
@@ -108,7 +111,7 @@ h1.ultra_text {
   transition: background-color 0.2s ease-out;
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 50%;
 }
 
 .button-more:hover {
@@ -120,7 +123,7 @@ h1.ultra_text {
 .button-add, form input[type=submit] {
   display: inline-block;
   padding: 0.8em 2.8em; /*Clears an area around the content.*/
-  margin: 2em 1em 0em 0em; /*Clears an area outside the border.*/
+  margin: 2em 1em 2em 0em; /*Clears an area outside the border.*/
   color: #bea67c;
   border: 2px solid #bea67c;
   border-radius: 0em;
