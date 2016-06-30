@@ -358,6 +358,21 @@ input#security-number{
   margin-bottom: 2em;
 }
 
+input#first-name{
+  width: 38%;
+  margin-right: 1em;
+
+}
+
+input#last-name{
+  width: 38%;
+
+}
+
+label#label_last_name{
+  padding: 31%;
+}
+
 /*--------------check out elements-------------------*/
 
 h4#billing_padding {
