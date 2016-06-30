@@ -12,7 +12,7 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #131313;
 }
 
 
@@ -67,14 +67,14 @@ h5{
     color: #bea67c;
 }
 
-
 p{
   padding: 4em 0em 4em 0em;
   color: rgba(255,255,255,0.5);
-  font-size: 0.6em;
+  font-size: 0.65em;
   text-transform: uppercase;
   letter-spacing: .1em;
   line-height: 200%;
+  font-weight: 200;
 }
 
 h1.super_text {
@@ -106,6 +106,9 @@ h1.ultra_text {
   letter-spacing: .2em;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
+  position: absolute;
+  left: 50%;
+  top: 40%;
 }
 
 .button-more:hover {
@@ -132,13 +135,13 @@ h1.ultra_text {
 .button-checkout {
   display: inline-block;
   padding: 0.8em 2.8em; 
-
   /*margin: 2em 1em 0em 0em; */
   color: #bea67c;
   border: 2px solid #bea67c;
   border-radius: 0em;
   font-size: 0.8em;
   text-decoration: none;
+  text-transform: uppercase;
   font-weight: 400;
   letter-spacing: .2em;
   -webkit-transition: background-color 0.2s ease-out;
@@ -426,7 +429,8 @@ h4.border_on_top{
 /*----------product detail page---------*/
 
 span.star_on {
-  font-size: 40px;
+  font-size: 16px;
+  letter-spacing: 2px;
   color: #bea67c;
   cursor: pointer;
 }

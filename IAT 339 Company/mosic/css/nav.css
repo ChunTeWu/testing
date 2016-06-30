@@ -90,7 +90,7 @@
 .dropdown-cart {
     display: none;
     position: absolute;
-    background-color: #000000;
+    background-color: #131313;
     
     /*box-shadow: 0em 80em 16em 0em rgba(0,0,0,0.2);*/
     text-decoration: none;
@@ -331,7 +331,7 @@
     width: 20em;
     height: 40em;
     top: -16em;
-    background-color: black;
+    background-color: #131313;
 }
 
 
@@ -342,7 +342,7 @@
     width: 20em;
     height: 40em;
     top: -18.5em;
-    background-color: black;
+    background-color: #131313;
 }
 
 
@@ -350,7 +350,7 @@
     width: 20em;
     height: 40em;
     top: -18.5em;
-    background-color: black;
+    background-color: #131313;
 }
 
 .cart_box h2{
