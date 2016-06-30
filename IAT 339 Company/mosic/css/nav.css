@@ -1,3 +1,7 @@
+#menu_icon:hover {
+    src="icon/menu_hover.png";
+}
+
 /*Horizontal Navigation Bar elements*/
 .active{
   width: 100%;
@@ -8,6 +12,10 @@
   position: fixed;
   z-index: 1000;
 
+}
+
+.active li a:hover{
+  /*color: white;*/
 }
 
 .active ul {
@@ -42,12 +50,14 @@
 .active li a:hover {
     /*background-color: white;*/
 }
-.dropdown:hover {
-  /*background-color: white;*/
+
+
+#horizontal_about:hover a{
+  color: white;
 }
 
-.dropbtn:hover{
-  /*background-color: white;*/
+#horizontal_account:hover a{
+  color: white;
 }
 
 #hover_nothing:hover {

@@ -14,6 +14,60 @@
 <body>
 
 
+<!-- chang icon on hover -->
+<script>
+	function menuOn() {
+	    document.getElementById("menu_icon").src = "icon/menu_hover.png";
+	}
+
+	function menuOff() {
+	    document.getElementById("menu_icon").src = "icon/menu.png";
+	}
+
+	function likeOn() {
+	    document.getElementById("like_icon").src = "icon/like_hover.png";
+	}
+
+	function likeOff() {
+	    document.getElementById("like_icon").src = "icon/like.png";
+	}
+
+	function bagOn() {
+	    document.getElementById("bag_icon").src = "icon/bag_hover.png";
+	}
+
+	function bagOff() {
+	    document.getElementById("bag_icon").src = "icon/bag.png";
+	}
+
+	function menuOnVert() {
+	    document.getElementById("vertical_menu_icon").src = "icon/menu_hover.png";
+	}
+
+	function menuOffVert() {
+	    document.getElementById("vertical_menu_icon").src = "icon/menu.png";
+	}
+
+	function likeOnVert() {
+	    document.getElementById("vertical_like_icon").src = "icon/like_hover.png";
+	}
+
+	function likeOffVert() {
+	    document.getElementById("vertical_like_icon").src = "icon/like.png";
+	}
+
+	function bagOnVert() {
+	    document.getElementById("vertical_bag_icon").src = "icon/bag_hover.png";
+	}
+
+	function bagOffVert() {
+	    document.getElementById("vertical_bag_icon").src = "icon/bag.png";
+	}
+
+
+</script>
+
+
 <!-- Horizontal Nav -->
 	<ul class="active">
 		<li class="dropdown" >
@@ -22,7 +76,7 @@
 		</li>
 
 		<li class="dropdown">
-		    <a href="#" class="dropbtn"><img class="icon_horizontal" src="icon/menu.png" alt="icon"></a>
+		    <a href="#" class="dropbtn"><img class="icon_horizontal" id="menu_icon" onmouseover="menuOn()" onmouseout="menuOff()" src="icon/menu.png" alt="icon"></a>
 		    <div class="dropdown-content">
 		    	<ul>
 				      <li><a href="product.html">LIGHTING</a></li>
@@ -36,7 +90,7 @@
 
 
 		<li class="dropdown">
-		    <a href="#" class="dropbtn"><img class="icon_horizontal" src="icon/like.png" alt="icon"></a>
+		    <a href="#" class="dropbtn"><img class="icon_horizontal" id="like_icon" onmouseover="likeOn()" onmouseout="likeOff()" src="icon/like.png" alt="icon"></a>
 		    <div class="dropdown-cart">
 		     	<ul>
 		     		<li>
@@ -71,7 +125,7 @@
 		 </li>
 
 		<li class="dropdown">
-		    <a href="#" class="dropbtn"><img class="icon_horizontal" src="icon/bag.png" alt="icon"></a>
+		    <a href="#" class="dropbtn"><img class="icon_horizontal" id="bag_icon" onmouseover="bagOn()" onmouseout="bagOff()" src="icon/bag.png" alt="icon"></a>
 		    <div class="dropdown-cart">
 		     	<ul>
 		     		<li>
@@ -183,9 +237,9 @@
 	</a>
 
 	</li>
-	<li>
+	<li onmouseover="menuOnVert()" onmouseout="menuOffVert()">
 		<a href="#">
-		<img class="icon_vertical" src="icon/menu.png" alt="icon">
+		<img class="icon_vertical" id="vertical_menu_icon"  src="icon/menu.png" alt="icon">
 
 		</a>
 		<ul>
@@ -208,9 +262,9 @@
 	</li>
 
 
-	<li>
+	<li onmouseover="likeOnVert()" onmouseout="likeOffVert()">
 		<a href="#">
-			<img class="icon_vertical" src="icon/like.png" alt="icon">
+			<img class="icon_vertical" id="vertical_like_icon" src="icon/like.png" alt="icon">
 		</a>
 		<ul id="vertical_like">
 
@@ -270,9 +324,9 @@
 	</li>
 
 
-	<li>
+	<li onmouseover="bagOnVert()" onmouseout="bagOffVert()">
 		<a href="#">
-		<img class="icon_vertical" src="icon/bag.png" alt="icon">
+		<img class="icon_vertical" id="vertical_bag_icon" src="icon/bag.png" alt="icon">
 
 		</a>
 		<ul id="vertical_cart">
