@@ -395,22 +395,109 @@
 
 <div class="body_context">
 
+	
+
+	
+
 	<div class="product_detail_box">
 		<h1>AVOA Chair</h1>
 		<h4>Pedro Paulø-Venzon</h4>
 		<h3>$ 590</h3>
 
-		<a class="button-add" href="#">ADD TO CART</a>
 
-		<a class="button-add" href="#">ADD TO WISHLIST</a>
+		<script>
+			function myFunction() {
+			    document.getElementById("cart_popout_window").style.display = "block";
+			}
+
+			function myFunction2() {
+			    document.getElementById("cart_popout_window").style.display = "none";
+			}
+			function myFunction3() {
+			    document.getElementById("like_popout_window").style.display = "block";
+			}
+
+			function myFunction4() {
+			    document.getElementById("like_popout_window").style.display = "none";
+			}
+
+		</script>
+
+
+		<a class="button-add" onclick="myFunction()" href="#">ADD TO CART</a>
+
+		<a class="button-add" onclick="myFunction3()" href="#">ADD TO WISHLIST</a>
 
 		<p class="productDetail">Avoa is a minimalist chair created by Brazil-based designer Pedro Paulø-Venzon. The motivation for the development of the Avoa Chair is autotelia, the autonomous design discourse. The challenge was to think of an object as a quote, a resumption of the minimal elements that form a chair: small seat, economical design, delicate balance. Avoa, as its name says, is on the verge of dispersion. It is about to fly. Contrary to what expectation teaches, the piece beautifully plays with transience and simulation. It does not remind a ‘classic’ chair in its design, nor in its material or in the supposed absolute comfort. It is a game played between precision and deconstruction, therefore the nodal spot of Avoa’s creation.
 		</p>
 
 	</div>
 
-	<div class="product_detail_hint">
-		<img class="detail_img_grid_rect" src="icon/arrow.png" alt="arrow">
+	<div class="cart_popout" id="cart_popout_window">
+		<p>The following item has been added to your shopping cart.</p>
+		<ul id="vertical_cart_checkout">
+
+			<li>
+				<div class="cart_box">
+
+
+					<div class="cart_box_section2">
+						<a href="product_detail.html">
+							<img src="img/chairAvoa.jpg" alt="product">
+						</a>
+					</div>
+
+					<div class="cart_box_section3">
+						<h2>Chair Avoa</h2>
+						<h4>x1</h4>
+
+					</div>
+
+					<div class="cart_box_section4">
+						<h4>$199</h4>
+					</div>
+
+
+					
+				</div>
+			</li>
+			<a class="button-add" onclick="myFunction2()" href="#">CONTINUING SHOPPING</a>
+		</ul>
+		
+
+	</div>
+
+	<div class="cart_popout" id="like_popout_window">
+		<p>The following item has been added to your wishlist.</p>
+		<ul id="vertical_cart_checkout">
+
+			<li>
+				<div class="cart_box">
+
+
+					<div class="cart_box_section2">
+						<a href="product_detail.html">
+							<img src="img/chairAvoa.jpg" alt="product">
+						</a>
+					</div>
+
+					<div class="cart_box_section3">
+						<h2>Chair Avoa</h2>
+						<h4>x1</h4>
+
+					</div>
+
+					<div class="cart_box_section4">
+						<h4>$199</h4>
+					</div>
+
+
+					
+				</div>
+			</li>
+			<a class="button-add" onclick="myFunction4()" href="#">CONTINUING SHOPPING</a>
+		</ul>
+		
 
 	</div>
 
@@ -428,11 +515,14 @@
 		 <img class="detail_img_grid_square" src="img/MissaChair3-2x.jpg" alt="product_detail">
 		 <img class="detail_img_grid_square" src="img/TimidaChair2-2x.jpg" alt="product_detail">
 
+	</div>
 
-		 
-
+	<div class="product_detail_hint">
+		<img class="detail_img_grid_rect" src="icon/arrow.png" alt="arrow">
 
 	</div>
+
+	
 
 	
 
