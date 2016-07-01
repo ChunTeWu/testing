@@ -59,6 +59,15 @@ figcaption {
     margin-top: 6em;
 }
 
+@media (max-width: 1100px){
+    figcaption { 
+       top: 46%; 
+       left: 25%; 
+       width: 40em; 
+
+    }
+}
+
 
 .index_text_box {
     display: inline-block;
