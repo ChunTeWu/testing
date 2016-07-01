@@ -155,7 +155,7 @@ li.rig_size1{
     padding-top: 2em;
     /*border: 0.2em solid #bea67c;  */
     margin-right: 0;
-    margin-left: 6em;
+    /*margin-left: 6em;*/
     /*position: fixed;*/
     /*float: right;*/
     left: 0;
@@ -405,6 +405,14 @@ li.rig_size1{
 
 .product_collage{
     padding-left: 5%;
+}
+
+#rig li {
+    padding: 5px;
+}
+
+#rig li li {
+    padding: 0;
 }
 
 @media (max-width: 4000px) {

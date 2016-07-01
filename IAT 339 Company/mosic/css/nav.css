@@ -109,14 +109,22 @@
 
 .horizontal_cart_box div{
   width: 100%;
-  height: 15em;
+  height: 12em;
   display: inline-block;
   vertical-align: top;
   /*border: 2px solid #bea67c;*/
   /*border-bottom: 0.1px solid #bea67c;*/
 }
-
+/*.horizontal_cart_box h2{
+  border-bottom: 0.1px solid #bbbbbb;
+}
+*/
 #no_border{
+  border: none;
+}
+
+#smaller_border{
+  height: 8em;
   border: none;
 }
 
@@ -149,23 +157,36 @@
 
 .horizontal_cart_box_content .horizontal_cart_box_total{
   width: 40%;
-  height: 60%;
+  height: 6em;
+  /*height: 20%;*/
   /*border: 2px solid #bea67c;*/
 
 }
 
+
 .horizontal_cart_box_content .horizontal_cart_box_price{
   width: 40%;
-  height: 60%;
+  height: 6em;
+  /*height: 60%;*/
   text-align: right;
   float: right;
   /*border: 2px solid #bea67c;*/
 
 }
 
+.horizontal_cart_box_content .horizontal_cart_box_total h2{
+  margin: 0;
+}
+
+
+.horizontal_cart_box_content .horizontal_cart_box_price h2{
+  margin: 0;
+
+}
+
 .horizontal_cart_box_content .horizontal_cart_box_button{
   width: 100%;
-  margin-top: 2em;
+  /*margin-top: 2em;*/
   /*border: 2px solid #bea67c;*/
 
 }
@@ -252,7 +273,7 @@
 }
 
 #menu .account a{
-  margin-top: 29em;
+  margin-top: 14em;
   margin-left: 0.15em;
   font-size: 0.5em;
   color: #bea67c;
@@ -345,6 +366,10 @@
     background-color: #131313;
 }
 
+#vertical_cart h2{
+  font-size: 1em;
+}
+
 
 #menu #vertical_cart_checkout{ /*avoid multi ID*/
     width: 20em;
@@ -364,7 +389,7 @@
 .cart_box {
     display: inline-block;
     width: 99%;
-    height: 8em;
+    height: 6em;
     border-top: 0.1em solid rgba(255,255,255,0.3);  
     /*border: 0.1em solid #bea67c;*/
 }
@@ -450,7 +475,7 @@ h3.cart_box, h4.cart_box{
 .cart_box_button{
   /*width: 100%;*/
   margin-left: 25%;
-  padding-top: 1.3em;
+  /*padding-top: 1.3em;*/horizontal_cart_box
 
 }
 
