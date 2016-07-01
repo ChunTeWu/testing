@@ -34,6 +34,32 @@
 
 
 /*------------------Index page---------------*/
+.img_amd_text{
+    position: relative; 
+}
+
+figcaption { 
+   position: absolute; 
+   top: 46%; 
+   left: 45%; 
+   width: 35em; 
+
+   padding: 0em 0em 4em 0em;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.65em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 200%;
+  font-weight: 200;
+   z-index: 500;
+}
+
+.img_and_text figcaption div a{
+    margin-left: 3em;
+    margin-top: 6em;
+}
+
+
 .index_text_box {
     display: inline-block;
     /*background-color: #000000;*/
@@ -44,9 +70,11 @@
     margin-left: 0;
     position: absolute;
     /*float: right;*/
-    left: 50%;
-    top: 40%;
+/*    left: 50%;
+    top: 40%;*/
 }
+
+
 
 .index_text_box p{
     margin-top: 0;
