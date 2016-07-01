@@ -57,6 +57,7 @@ figcaption {
 .img_and_text figcaption div a{
     margin-left: 3em;
     margin-top: 6em;
+    /*font-size: 0.9em;*/
 }
 
 @media (max-width: 1100px){
