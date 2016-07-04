@@ -5,7 +5,7 @@
     padding: 0;
     font-size: 0;
     list-style: none;
-    background-color: #000;
+    background-color: #1e1e1e;
 }
 
 #rig li {
@@ -62,7 +62,7 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #000 no-repeat center 10%;
+    background: #1e1e1e no-repeat center 10%;
     background-size: 50px 50px;
     opacity: 0;
     filter: alpha(opacity=0);/*For IE6 - IE8*/
