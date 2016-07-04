@@ -1,6 +1,7 @@
 html {
   /*background: #333 url(http://subtlepatterns.com/patterns/tex2res4.png) 0 0 repeat;*/
   padding: 0;
+  font-size: 100%;
 }
 /*test*/
 
@@ -13,6 +14,7 @@ body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  font-size:1em;
   color: black;
   height: 100%;
   margin: 0;
@@ -85,7 +87,7 @@ p{
   font-weight: 200;
 }
 
-h1.super_text {
+/*h1.super_text {
   font-size: 6em;
   font-weight: 600;
   letter-spacing: .1em;
@@ -94,8 +96,7 @@ h1.super_text {
 h1.ultra_text {
   font-size: 11em;
   font-weight: 500;
-  letter-spacing: .1em;
-
+  letter-spacing: .1em;*/
 }
 
 ul{
@@ -111,14 +112,13 @@ ul{
   color: #bea67c;
   border: 2px solid #bea67c;
   border-radius: 0em;
-  font-size: 0.8em;
+  font-size: 1.3em;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 400;
   letter-spacing: .2em;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
 }
@@ -147,13 +147,12 @@ ul{
 .button-checkout {
   display: inline-block;
   padding: 0.8em 2.8em; 
-  /*margin: 2em 1em 0em 0em; */
+  margin: 2em 1em 2em 0em;
   color: #bea67c;
   border: 2px solid #bea67c;
   border-radius: 0em;
   font-size: 0.8em;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 400;
   letter-spacing: .2em;
   -webkit-transition: background-color 0.2s ease-out;
@@ -304,14 +303,13 @@ ul{
   margin-top: 0;
   padding: 0;
   color: rgba(255,255,255,0.5);
-  font-size: 0.6em;
+  /*font-size: 0.6em;*/
   text-transform: uppercase;
   letter-spacing: .1em;
   line-height: 150%;
   /*text-align: left;*/
   /*margin-left: 40%;*/
   text-align: center;
-
 }
 
 #rig .rig-cell:hover .rig-text {
@@ -331,7 +329,7 @@ ul{
     }
 
     .body_context ul li span span{
-      font-size: 0.4em;
+
       line-height: 100%;
       /*text-align: left;*/
     }  
