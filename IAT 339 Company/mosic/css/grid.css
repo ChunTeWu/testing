@@ -416,17 +416,17 @@ li.rig_size1{
     form input[type=text],
     form input[type=password],
     textarea {
-      height: 2em;
-      margin-bottom: 0em;
+      height: 3em;
+      margin-bottom: 1em;
       margin-top: 1em;
     }
 
     textarea{
-      height: 4em;
+      height: 10em;
     }
 
     form input[type=submit]{
-      margin-left: 25%;
+      margin-left: 0;
     }
 }
 
@@ -475,13 +475,14 @@ li.rig_size1{
 .login_box{
     width: 95%;
     height: 100%;
-    margin-left: 3%;
+    margin-left: 20%;
     /*border: 0.2em solid #bea67c;  */
-    text-align: right;
 }
 
 .login_box h1{
-    margin-bottom: 0;
+    padding-top: 6em;
+    padding-left: 1em;
+    margin-bottom: 1em;
 }
 
 
@@ -490,13 +491,12 @@ li.rig_size1{
     width: 50%;
     height: 4em;
     margin-right: 2em;
-    margin-bottom: 0em;
+    margin-bottom: 1em;
     margin-top: 1em;
 }
 
 .login_box form input[type=submit]{
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-top: 3em;
 }
 
 
@@ -506,26 +506,42 @@ li.rig_size1{
         width: 95%;
         height: 100%;
         text-align: left;
+        margin-left: 8%;
     }
     .login_box h1{
-        font-size: 5em;
+        padding-top: 2em;
+        font-size: 3em;
     }
 
     .login_box form input[type=text], .login_box form input[type=password] {
-        width: 50%;
+        width: 80%;
         height: 4em;
         margin-left: 0;
         margin-top: 1em;
     }
 
     .login_box form input[type=submit]{
-        margin-right: 2%;
         margin-left: 0;
     }
 
     .login_box form ul{
-        padding-left: 0;
+        padding-left: 3em;
     }
 }
 
 
+/*--------------contact page grid-----------------*/
+.contact_text h1{
+    padding-left: .85em;
+    margin-bottom: 1em;
+}
+.contact_text h3{
+    padding-left: 1.9em;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+.contact_text h4{
+    padding-left: 2.4em;
+    font-size: 1em;
+    margin-bottom: -0.8em;
+}

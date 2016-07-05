@@ -343,11 +343,11 @@ h2 span{
 form input[type=text],
 form input[type=password],
 textarea {
-  width: 80%;
+  width: 85%;
   height: 3em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   padding-left: 1em;
-  margin-top: 1em;
+  margin-top: 2em;
   background: #e5e4e4;
   border: none;
   color: #4a4949;
@@ -356,13 +356,13 @@ textarea {
 }
 
 textarea{
-  height: 8em;
+  height: 10em;
 }
 
 form input[type=submit]{
   background-color: #1e1e1e;
-  margin-left: 15%;
-  margin-bottom: 2em;
+
+  margin-bottom: 1em;
 }
 
 input#security-number{
