@@ -159,6 +159,26 @@ li{
   border: 2px solid #bea67c;
 }
 
+.button-cancel, form input[type=cancel] {
+  display: inline-block;
+  padding: 0.8em 2.8em; /*Clears an area around the content.*/
+  margin: 2em 1em 2em 0em; /*Clears an area outside the border.*/
+  color: #dadada;
+  border: 2px solid #dadada;
+  font-size: .8em;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: .2em;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.button-cancel:hover, form input[type=cancel]:hover, form input[type=cancel]:focus {
+  color: #0b0b0d;
+  background-color: #dadada;
+  border: 2px solid #dadada;
+}
+
 
 /*-------------------product page elements-------------*/
 
@@ -361,7 +381,11 @@ textarea{
 
 form input[type=submit]{
   background-color: #1e1e1e;
+  margin-bottom: 1em;
+}
 
+form input[type=cancel]{
+  background-color: #1e1e1e;
   margin-bottom: 1em;
 }
 
