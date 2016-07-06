@@ -100,7 +100,7 @@
     /*box-shadow: 0em 80em 16em 0em rgba(0,0,0,0.2);*/
     text-decoration: none;
     left: -1%;
-    /*top: 3em;*/
+    top: 5em;
     /*bottom: -50%;*/
 }
 
@@ -389,9 +389,10 @@
 /*vertical nav like element*/
 
 #menu #vertical_like{
-    width: 20em;
+    width: 21em;
     height: 40em;
     top: -16em;
+    padding-left: 1em;
     background-color: #1e1e1e;
 }
 
@@ -400,9 +401,10 @@
 /*vertical nav cart element*/
 
 #menu #vertical_cart{
-    width: 20em;
+    width: 21em;
     height: 40em;
     top: -19em;
+    padding-left: 1em;
     background-color: #1e1e1e;
 }
 
@@ -435,7 +437,8 @@
 .cart_box {
     display: inline-block;
     width: 99%;
-    border-top: 0.1em solid rgba(255,255,255,0.3);  
+    /*border-top: 0.1em solid rgba(255,255,255,0.3);  */
+    border-top: 1px solid #464646;  
     /*border: 0.1em solid #bea67c;*/
 }
 
