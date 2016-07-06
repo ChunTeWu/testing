@@ -104,6 +104,14 @@
     /*bottom: -50%;*/
 }
 
+.dropdown-cart ul{
+    padding-left: 0;
+}
+
+.dropdown-cart ul li{
+    padding-left: 2em;
+}
+
 .horizontal_cart_box{
   display: inline-block;
   margin-top: 1em;
@@ -217,7 +225,7 @@
 }
 
 .dropdown-cart ul li{
-  width: 80%;
+  width: 89%;
 }
 
 .horizontal_cart_box .button-checkout{
