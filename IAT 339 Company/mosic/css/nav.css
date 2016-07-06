@@ -231,6 +231,11 @@
 
   .horizontal_cart_box .button-checkout{
     margin-top: 0;  
+    color: #B29C75; 
+  }
+
+  .horizontal_cart_box .button-checkout:hover, .horizontal_cart_box .button-checkout:focus { 
+    color: #ffffff; 
   }
     
 }
@@ -397,7 +402,7 @@
 #menu #vertical_cart{
     width: 20em;
     height: 40em;
-    top: -18.5em;
+    top: -19em;
     background-color: #1e1e1e;
 }
 
